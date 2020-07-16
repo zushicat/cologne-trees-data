@@ -1,0 +1,19 @@
+# Python 3
+__pycache__/
+
+# macOS
+.DS_Store
+
+# Atom Remote Sync
+.remote-sync.json
+
+# Visual Studio Code
+.vscode/
+
+Pipfile.lock
+.ipynb_checkpoints
+_regression_tests.py
+
+# data from Stadt Köln
+data/original_data/*
+data/tmp/*
