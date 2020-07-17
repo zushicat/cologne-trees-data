@@ -1,0 +1,1 @@
+This is a directory to temporarily store data while transforming and processing.
