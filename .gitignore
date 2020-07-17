@@ -16,4 +16,3 @@ _regression_tests.py
 
 # data from Stadt Köln
 data/original_data/*
-data/tmp/*
