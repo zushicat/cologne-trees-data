@@ -14,5 +14,3 @@ Pipfile.lock
 .ipynb_checkpoints
 _regression_tests.py
 
-# data from Stadt Köln
-data/original_data/*
