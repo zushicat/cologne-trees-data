@@ -1,3 +1,9 @@
+'''
+The whole process takes a while (especially the processes under 4.). Temporary results of each step are stored in /tmp and
+can be deleted after finishing the whole process chain.
+You might want to take a longer coffee break when processing all at once or apply the script step by step.
+'''
+
 import json
 import os
 from typing import Any, Dict, List
@@ -43,7 +49,7 @@ def _load_list_tmp_data(file_name: str) -> List[Dict[str, Any]]:
 
 
 # *******
-# 1 - compute some geo data
+# 1 - compute some geo data (both calls only take seconds)
 # *******
 create_suburb_polygons()
 find_neighbouring_suburbs()  # needed for more efficient tree neighbour processing; keep uncommented until 4. is done
