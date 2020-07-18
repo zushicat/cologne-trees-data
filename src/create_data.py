@@ -1,6 +1,6 @@
 '''
-The whole process takes a while (especially the processes under 4.). Temporary results of each step are stored in /tmp and
-can be deleted after finishing the whole process chain.
+The whole process takes a while (especially the processes under 4.). 
+Temporary results of each step are stored in /tmp and can be deleted after finishing the whole process chain.
 You might want to take a longer coffee break when processing all at once or apply the script step by step.
 '''
 
