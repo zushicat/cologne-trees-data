@@ -92,10 +92,11 @@ Example:
 ```
 
 **genus/species/type/name_german**
-xxx
+Taken from the original data
 
 **genus_name_german**
-xxxx
+Derived german name of genus (as defined in wikidata.org)    
+See: [genus_name_german.json](https://github.com/zushicat/cologne-trees-data/blob/master/data/meta/genus_name_german.json)
 
 
 ### tree_measures
@@ -109,7 +110,7 @@ Example:
 ```
 
 **height/treetop_radius/bole_radius**    
-This data is taken from the datasets. Checks on samples showed that, given a tree occured in both datasets, the measures didn't change. Meaning: according to those samples, tree growth was not taken into any account.    
+This data is taken from the datasets. Checks on samples showed that, given a tree occured in both datasets, the measures didn't change. Meaning: according to those samples, tree growth was not taken into any account in the original 2020 dataset. (You might want to keep that in mind.)    
 
 
 ### tree_age    
@@ -130,9 +131,9 @@ Derived from year_sprout (valid for 2020)
 
 **age_group_2020**    
 There are 3 age groups (valid for 2020)    
-- <= 25
-- 26 - 40
-- \> 40
+- 0: <= 25
+- 1: 26 - 40
+- 2: \> 40
 
 
 ### found_in_dataset    
