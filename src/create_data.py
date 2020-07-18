@@ -8,6 +8,7 @@ from _process_dataset_2020 import process_dataset_2020
 from _merge_datasets import merge_datasets
 from _tree_neighbours import cleanup_close_pairs, process_tree_neighbours
 from _predict_genus_age import predict_genus_age
+from _export import create_reduced_data, save_compressed_data
 
 
 def _save_tmp_data(file_name: str, data_to_save: List[Any]) -> None:
@@ -42,28 +43,27 @@ def _load_list_tmp_data(file_name: str) -> List[Dict[str, Any]]:
 
 
 # *******
-# compute some geo data
+# 1 - compute some geo data
 # *******
 # create_suburb_polygons()
-# find_neighbouring_suburbs()  # needed for more efficient tree neighbour processing
+# find_neighbouring_suburbs()  # needed for more efficient tree neighbour processing; keep uncommented until 4. is done
 
 # *******
-# create base datasets from original "Baumkataster" csv data
+# 2 - create base datasets from original "Baumkataster" csv data
 # *******
 # _save_tmp_data("data_2017.jsonln", process_dataset_2017())
 # _save_tmp_data("data_2020.jsonln", process_dataset_2020())
 
 # *******
-# merge datasets 2017 / 2020
+# 3 - merge datasets 2017 / 2020
 # *******
 # datasets = _load_tmp_data()
-# print(len(datasets["2017"]), len(datasets["2020"]))
 # _save_tmp_data("data_merged.jsonln", merge_datasets(datasets))
 
 # merged_data = _load_list_tmp_data("data_merged.jsonln")
 
 # *******
-# process neighbour trees in radius, then clean up pairs of close trees (< 2m)
+# 4 - process neighbour trees in radius, then clean up pairs of close trees (< 2m)
 # *******
 # close_pairs, all_pairs = process_tree_neighbours(merged_data)  # takes approx. 20 minutes
 # _save_tmp_data("neighbours_close_pairs.jsonln", close_pairs)
@@ -74,10 +74,20 @@ def _load_list_tmp_data(file_name: str) -> List[Dict[str, Any]]:
 # _save_tmp_data("data_merged_cleanup.jsonln", merged_data)
 
 # *******
-# predict genus and/or age resp. age_group by clusters of neighbouring trees
+# 5 - predict genus and/or age resp. age_group by clusters of neighbouring trees
 # *******
-merged_data = _load_list_tmp_data("data_merged_cleanup.jsonln")
-neighbours_pairs = _load_list_tmp_data("neighbours_all_pairs.jsonln")
+# merged_data = _load_list_tmp_data("data_merged_cleanup.jsonln")
+# neighbours_pairs = _load_list_tmp_data("neighbours_all_pairs.jsonln")
 
-merged_data_with_predictions = predict_genus_age(merged_data, neighbours_pairs)
-_save_tmp_data("data_merged_with_predictions.jsonln", merged_data_with_predictions)
+# merged_data_with_predictions = predict_genus_age(merged_data, neighbours_pairs)
+# _save_tmp_data("data_merged_with_predictions.jsonln", merged_data_with_predictions)
+
+# *******
+# 6 - write compressed exports to /data/exports
+# *******
+save_compressed_data("trees_cologne.jsonln", "../data/tmp/data_merged_with_predictions.jsonln")
+
+merged_data_with_predictions = _load_list_tmp_data("data_merged_with_predictions.jsonln")
+reduced_tree_data = create_reduced_data(merged_data_with_predictions)
+_save_tmp_data("data_merged_with_predictions_reduced.jsonln", reduced_tree_data)
+save_compressed_data("trees_cologne_reduced.jsonln", "../data/tmp/data_merged_with_predictions_reduced.jsonln")
