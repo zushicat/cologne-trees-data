@@ -66,7 +66,7 @@ def create_reduced_data(tree_data_list: List[Dict[str, Any]]) -> List[Dict[str, 
             new_tree_data["genus"] = tree_data["tree_taxonomy"]["genus"]
         else:
             try: 
-                if new_tree_data["genus"] = tree_data["predictions"]["by_radius_prediction"]["genus"]["probability"] >= 0.5:
+                if tree_data["predictions"]["by_radius_prediction"]["genus"]["probability"] >= 0.5:
                     new_tree_data["genus"] = tree_data["predictions"]["by_radius_prediction"]["genus"]["prediction"]
             except:
                 pass
