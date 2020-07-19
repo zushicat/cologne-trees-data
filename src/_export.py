@@ -54,7 +54,7 @@ def create_reduced_data(tree_data_list: List[Dict[str, Any]]) -> List[Dict[str, 
         }
 
         if tree_data["tree_age"]["age_group_2020"] is not None:
-            new_tree_data["age_group"] = tree_data["tree_taxonomy"]["genus"]
+            new_tree_data["age_group"] = tree_data["tree_age"]["age_group_2020"]
         else:
             try: 
                 if tree_data["predictions"]["by_radius_prediction"]["age_group"]["probability"] >= 0.5:
