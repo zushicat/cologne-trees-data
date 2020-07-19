@@ -48,16 +48,26 @@ def create_reduced_data(tree_data_list: List[Dict[str, Any]]) -> List[Dict[str, 
             "district_number": tree_data["geo_info"]["district_id"],
             "lat": tree_data["geo_info"]["lat"],
             "lng": tree_data["geo_info"]["lng"],
-            "genus": None,
             "in_dataset_2020": tree_data["found_in_dataset"]["2020"],
-            "age_group": tree_data["tree_age"]["age_group_2020"]  # check if none -> from prediction
+            "genus": None,
+            "age_group": None
         }
 
+        if tree_data["tree_age"]["age_group_2020"] is not None:
+            new_tree_data["age_group"] = tree_data["tree_taxonomy"]["genus"]
+        else:
+            try: 
+                if tree_data["predictions"]["by_radius_prediction"]["age_group"]["probability"] >= 0.5:
+                    new_tree_data["age_group"] = tree_data["predictions"]["by_radius_prediction"]["age_group"]["prediction"]
+            except:
+                pass
+        
         if tree_data["tree_taxonomy"]["genus"] is not None:
             new_tree_data["genus"] = tree_data["tree_taxonomy"]["genus"]
         else:
             try: 
-                new_tree_data["genus"] = tree_data["predictions"]["by_radius_prediction"]["genus"]
+                if new_tree_data["genus"] = tree_data["predictions"]["by_radius_prediction"]["genus"]["probability"] >= 0.5:
+                    new_tree_data["genus"] = tree_data["predictions"]["by_radius_prediction"]["genus"]["prediction"]
             except:
                 pass
         
