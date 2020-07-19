@@ -306,3 +306,5 @@ Although this method (which is basiccally "birds of a feather flock together") h
   "age_group": 2
 }
 ```
+
+The reduced dataset substitutes missing age_group and genus information with predicted values with a probability >= 0.5.
