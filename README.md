@@ -2,7 +2,7 @@
 Create dataset of trees in Cologne, Germany.
 
 ## About
-There are (as of now) 2 official datasets (from 2017 and 2020) about the city tree situation in Cologne (Germany), published by the city. Unfortunately, these datasets are far from being satisfying in different data scientific regards.    
+There are (as of now) 2 official datasets (from 2017 and 2020) about the city tree situation in Cologne (Germany), published by the responsible city authority. Unfortunately, these datasets are far from being satisfying in different data scientific regards.    
 Hence, this process chain in order to address these issues by cleaning up and enriching the data.    
 
 ## Usage
