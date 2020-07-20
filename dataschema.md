@@ -3,10 +3,10 @@ Information about how the data is processed and stored.
 
 The resulting data is based on 2 official "Baumkataster" datasets published by the City of Cologne, Germany, but is heavily modified and enriched.    
  
-This is due to incomplete and/or unreliable (resp. implausible) data in the original datasets. Also, both datasets had to be merged (with a record of dataset occurrence) to determine tree existence in the past and the present (meaning: is a tree cut down between 2017 and 2020 or still existing).
+This is due to incomplete and/or unreliable (resp. implausible) data in the original datasets. Also, both datasets had to be merged (with a record of the occurrence in respective dataset) to determine tree existence in the past and the present (meaning: is a tree cut down between 2017 and 2020 or is it still existing).
 
 **Note**    
-The file trees_cologne_reduced.json.tar.gz is a very reduced version of trees_cologne.json.tar.gz, suitable i.e. web applications where lower file sizes is quite important. (See example at the bottom of this page.)   
+The file [trees_cologne_reduced.json.tar.gz](https://github.com/zushicat/cologne-trees-data/blob/master/data/exports/trees_cologne_reduced.jsonln.tar.gz) is a very reduced version of [trees_cologne.json.tar.gz](https://github.com/zushicat/cologne-trees-data/blob/master/data/exports/trees_cologne.jsonln.tar.gz), suitable for i.e. web applications where lower file size is quite important. (See example at the bottom of this page.)   
 
 
 There are 7 main objects:
@@ -38,7 +38,7 @@ Example:
 **object_type**    
 There are different situations defined by the responsible authority which can be found here:    
 [object_types.json](https://github.com/zushicat/cologne-trees-data/blob/master/data/meta/object_types.json)    
-Here, the english (translated) version is used.
+Here, the english (translated) version is being used.
 
 **tree_nr**   
 This is no ID.     
@@ -46,8 +46,8 @@ Please refer to https://offenedaten-koeln.de/dataset/baumkataster-koeln
 
 **year_planting**    
 The Baumkataster datasets have different definitions regarding age information of a tree. The 2017 dataset uses estimated age whereas the 2020 dataset provides the estimated year the tree was planted.    
-Therefore, given a mean age of 10 years when a city tree is planted, the 2017 age estimation is recalculated to the year of planting.
-**But** the age information of individual is quite unreliable (see below: tree_age).
+Therefore, given a mean age of 10 years when a city tree is planted, the 2017 age estimation is recalculated to the year of planting.    
+**But** the age information in regards of individual trees is quite unreliable (see below: tree_age).
 
 
 ### geo_info
@@ -124,7 +124,7 @@ Example:
 ```
 
 **year_sprout**    
-As mentioned before, the examination of age information from the original data revealed a very high variance which makes this data too unreliable for direct aquisition. But taken as a whole (per genus), it proves sufficiant to train a regression model (X: genus, bole radius, y: year sprout) and predict the year a tree sprout when genus and bole radius are given.    
+As mentioned before, the examination of age information from the original data revealed a very high variance which makes this data too unreliable for direct aquisition on individual tree. But taken as a whole (per genus), it proves sufficiant to train a regression model (X: genus, bole radius, y: year sprout) and predict the year a tree sprout when genus and bole radius are given.    
 
 **age_in_2020**    
 Derived from year_sprout (valid for 2020)    
@@ -170,8 +170,8 @@ Example:
 }
 ```
 
-**by_radius_prediction**
-There are trees without information about genus and measures to estimate the age by regression. Therefore, trees in a 50 meter radius around a respective tree are clustered (seperately for each prediction) and the most dominant cluster label is assigned.    
+**by_radius_prediction**    
+There are trees without information about genus and measures to estimate the age by regression. Therefore, trees in a 50 meter radius around a respective tree are clustered (seperately for each prediction) and the most dominant cluster label is assigned.      
 
 Although this method (which is basiccally "birds of a feather flock together") has its obvious and inherant limitations it's still way better than no data at all.    
 (Hence the additional probability which is the percentage of the "winning" cluster trees in regard of the overall trees within the examined radius.)
