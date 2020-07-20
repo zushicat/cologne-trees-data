@@ -10,7 +10,7 @@ Processed datasets can be found in /data/exports
 - trees_cologne.jsonln.tar.gz
 - trees_cologne_reduced.jsonln.tar.gz
 
-Both sets are stored as JSON line. For information about created data and how the original data is processed, enriched and stored, please refer to:    
+Both sets are stored as JSON line. For information about this created data and how the original data is processed, enriched and stored, please refer to:    
 [dataschema.md](https://github.com/zushicat/cologne-trees-data/blob/master/dataschema.md)
 
 
