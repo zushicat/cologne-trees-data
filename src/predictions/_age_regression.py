@@ -3,11 +3,7 @@ Create regression model for year_sprout / prediction based on
 X: genus, bole_radius
 y: year_sprout
 '''
-'''
-Make model for age prediction
-X: genus, bole radius
-y: age (year_sprout)
-'''
+
 import json
 import pickle
 from statistics import median, mean
@@ -19,7 +15,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler, MinMaxScaler
 from sklearn.ensemble import GradientBoostingRegressor
 
 
-MODEL_DATA_DIR = "../../data/predictions_models"
+MODEL_DATA_DIR = "../data/predictions_models"
 MODEL = None
 LABEL_ENCODER = None
 SCALER = None
