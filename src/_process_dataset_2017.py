@@ -103,8 +103,12 @@ def process_dataset_2017() -> List[Dict[str, Any]]:
             taxo_name_german = [x.strip() for x in row["DeutscherN"].split(",")] if len(row["DeutscherN"]) > 0 and row["DeutscherN"] != "unbekannt" else None
 
 
-            stated_age_2017 = int(row["AlterSchätzung"]) if row["AlterSchätzung"] is not None else None
-            estimated_year_planting = (2017 - stated_age_2017 + PLANTING_AGE) if stated_age_2017 is not None else None
+            estimated_year_planting = None
+            try:
+                if row["AlterSchätzung"] > 0:
+                    estimated_year_planting = (2017 - row["AlterSchätzung"] + PLANTING_AGE)
+            except:
+                pass
             
             year_sprout_from_regression = None
             if taxo_genus is not None and bole_radius is not None:
