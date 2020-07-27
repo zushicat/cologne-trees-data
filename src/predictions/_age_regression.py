@@ -34,10 +34,9 @@ def _load_train_data() -> List[Dict[str, Any]]:
             collected_years = []
             tmp_data_list = []
             for year_planted, num in year_planted_vals.items():
-                # not enough trees for this year in comparison to the number of trees for this bole_radius
-                if num < 3:
-                    if sum(year_planted_vals.values()) > 5:
-                        continue
+                # not enough trees for this year for this bole_radius
+                if num == 1:
+                    continue
 
                 # tmp. 
                 if int(year_planted) < 1800:
