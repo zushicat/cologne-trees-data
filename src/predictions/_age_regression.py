@@ -28,12 +28,17 @@ def _load_train_data() -> List[Dict[str, Any]]:
     train_data_list = []
     for genus, genus_vals in train_data_raw.items():
         for bole_radius, year_planted_vals in genus_vals.items():
-            if len(year_planted_vals.keys()) < 5:
-                continue
+            # if len(year_planted_vals.keys()) < 5:
+            #     continue
 
             collected_years = []
             tmp_data_list = []
             for year_planted, num in year_planted_vals.items():
+                # not enough trees for this year in comparison to the number of trees for this bole_radius
+                if num < 3:
+                    if sum(year_planted_vals.values()) > 5:
+                        continue
+
                 # tmp. 
                 if int(year_planted) < 1800:
                     continue
@@ -50,15 +55,15 @@ def _load_train_data() -> List[Dict[str, Any]]:
                     })
                     collected_years.append(int(year_planted) - 10)
             
-            median_year_sprout = int(median(collected_years))
-            del_index = []
-            for i, tmp in enumerate(tmp_data_list):
-                if tmp["year_sprout"] < (median_year_sprout - 10) or tmp["year_sprout"] > (median_year_sprout + 10):
-                    del_index.append(i)
+            # median_year_sprout = int(median(collected_years))
+            # del_index = []
+            # for i, tmp in enumerate(tmp_data_list):
+            #     if tmp["year_sprout"] < (median_year_sprout - 10) or tmp["year_sprout"] > (median_year_sprout + 10):
+            #         del_index.append(i)
             
-            for i in range(len(del_index)-1, -1, -1):
-                idx = del_index[i]
-                del tmp_data_list[idx]
+            # for i in range(len(del_index)-1, -1, -1):
+            #     idx = del_index[i]
+            #     del tmp_data_list[idx]
             
             if len(tmp_data_list) > 0:
                 train_data_list += tmp_data_list
