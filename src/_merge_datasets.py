@@ -79,7 +79,7 @@ def _get_best_tree_from_treelist(tree_list: List[Dict[str, Any]]) -> Dict[str, A
 
 def merge_datasets(trees_data: Dict[str, List[Dict[str, Any]]]) -> List[Dict[str, Any]]:
     trees_by_utm: Dict[str, List[Dict[str, Any]]] = _add_to_list(trees_data["2017"], "2017", {})
-    trees_by_utm: Dict[str, List[Dict[str, Any]]] = _add_to_list(trees_data["2020"], "2020", trees_by_utm)
+    trees_by_utm = _add_to_list(trees_data["2020"], "2020", trees_by_utm)
 
     merged_data: List[Dict[str, Any]] = []
 
