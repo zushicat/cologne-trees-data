@@ -28,15 +28,14 @@ def _load_train_data() -> List[Dict[str, Any]]:
     train_data_list = []
     for genus, genus_vals in train_data_raw.items():
         for bole_radius, year_planted_vals in genus_vals.items():
-            # if len(year_planted_vals.keys()) < 5:
-            #     continue
-
             collected_years = []
             tmp_data_list = []
             for year_planted, num in year_planted_vals.items():
                 # not enough trees for this year for this bole_radius
-                if num == 1:
-                    continue
+                # if num < round(sum(year_planted_vals.values()) * 0.2):
+                #     continue
+
+                # print(bole_radius, "|", sum(year_planted_vals.values()), num, round(sum(year_planted_vals.values()) * 0.2))
 
                 # tmp. 
                 if int(year_planted) < 1800:
@@ -54,15 +53,18 @@ def _load_train_data() -> List[Dict[str, Any]]:
                     })
                     collected_years.append(int(year_planted) - 10)
             
-            # median_year_sprout = int(median(collected_years))
-            # del_index = []
-            # for i, tmp in enumerate(tmp_data_list):
-            #     if tmp["year_sprout"] < (median_year_sprout - 10) or tmp["year_sprout"] > (median_year_sprout + 10):
-            #         del_index.append(i)
-            
-            # for i in range(len(del_index)-1, -1, -1):
-            #     idx = del_index[i]
-            #     del tmp_data_list[idx]
+            # try:
+            #     median_year_sprout = int(median(collected_years))
+            #     del_index = []
+            #     for i, tmp in enumerate(tmp_data_list):
+            #         if tmp["year_sprout"] < (median_year_sprout - 10) or tmp["year_sprout"] > (median_year_sprout + 10):
+            #             del_index.append(i)
+                
+            #     for i in range(len(del_index)-1, -1, -1):
+            #         idx = del_index[i]
+            #         del tmp_data_list[idx]
+            # except:
+            #     pass
             
             if len(tmp_data_list) > 0:
                 train_data_list += tmp_data_list
@@ -76,7 +78,7 @@ def train_model() -> None:
     label_encoder = LabelEncoder()
     scaler = MinMaxScaler()  #StandardScaler()
     
-    model = GradientBoostingRegressor(learning_rate=0.01, max_depth=6, min_samples_split=5, n_estimators=500)  
+    model = GradientBoostingRegressor(learning_rate=0.01, max_depth=3, min_samples_split=5, n_estimators=500)  
 
     df["encoded_genus"] = label_encoder.fit_transform(df["genus"].astype(str))
     df["bole_radius_scaled"] = scaler.fit_transform(df[["bole_radius"]])
@@ -120,7 +122,7 @@ if __name__ == "__main__":
     train_model()
 
     # tests
-    genus = "Taxus"  # "Robinia" # "Platanus"
-    for bole_radius in [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100, 150]:
+    genus = "Robinia" # "Taxus"  # "Robinia" # "Platanus"
+    for bole_radius in [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100, 110, 120, 130, 140, 150]:
         print(bole_radius, predict_year_sprout(genus, bole_radius))
     
