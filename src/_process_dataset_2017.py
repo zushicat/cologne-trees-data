@@ -105,8 +105,8 @@ def process_dataset_2017() -> List[Dict[str, Any]]:
 
             estimated_year_planting = None
             try:
-                if row["AlterSchätzung"] > 0:
-                    estimated_year_planting = 2017 - row["AlterSchätzung"] + PLANTING_AGE
+                if int(row["AlterSchätzung"]) > 0:
+                    estimated_year_planting = 2017 - int(row["AlterSchätzung"]) + PLANTING_AGE
             except:
                 pass
             
