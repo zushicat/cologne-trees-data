@@ -9,6 +9,15 @@ This is due to incomplete and/or unreliable (resp. implausible) data in the orig
 The file [trees_cologne_reduced.json.tar.gz](https://github.com/zushicat/cologne-trees-data/blob/master/data/exports/trees_cologne_reduced.jsonln.tar.gz) is a very reduced version of [trees_cologne.json.tar.gz](https://github.com/zushicat/cologne-trees-data/blob/master/data/exports/trees_cologne.jsonln.tar.gz), suitable for i.e. web applications where lower file size is quite important. (See example at the bottom of this page.)   
 
 
+**Note**    
+Regarding .tree_measures.treetop_radius and .tree_measures.bole_radius:
+In the heat of the moment I wrongly labeled both values as radius when in fact
+- treetop_radius is the **diameter** of a treetop
+- bole_radius is the **perimeter** of a trunk
+
+**I will correct the naming of both attributes in the near future. Until then, please keep that in mind.**
+
+
 There are 7 main objects:
 - base_info
 - geo_info
