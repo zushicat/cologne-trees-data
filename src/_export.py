@@ -15,7 +15,8 @@ def _get_reduced_tree_data(tree_data: Dict[str, Any]) -> Dict[str, Any]: # <-- c
         "lng": tree_data["geo_info"]["lng"],
         "genus": None,
         "in_dataset_2020": tree_data["found_in_dataset"]["2020"],
-        "age_group": tree_data["tree_age"]["age_group_2020"]  # check if none -> from prediction
+        "age_group": tree_data["tree_age"]["age_group_2020"],  # check if none -> from prediction
+        "object_type": tree_data["base_info"]["object_type"]
     }
 
     if new_tree_data["age_group"] is None:
@@ -40,6 +41,7 @@ def _get_reduced_tree_data(tree_data: Dict[str, Any]) -> Dict[str, Any]: # <-- c
 
     return new_tree_data
 
+
 def create_reduced_data(tree_data_list: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     new_tree_data_list: List[Dict[str, Any]] = []
     for tree_data in tree_data_list:
@@ -50,7 +52,8 @@ def create_reduced_data(tree_data_list: List[Dict[str, Any]]) -> List[Dict[str, 
             "lng": tree_data["geo_info"]["lng"],
             "in_dataset_2020": tree_data["found_in_dataset"]["2020"],
             "genus": None,
-            "age_group": None
+            "age_group": None,
+            "object_type": tree_data["base_info"]["object_type"]
         }
 
         if tree_data["tree_age"]["age_group_2020"] is not None:
@@ -74,7 +77,6 @@ def create_reduced_data(tree_data_list: List[Dict[str, Any]]) -> List[Dict[str, 
         new_tree_data_list.append(new_tree_data)
     
     return new_tree_data_list
-
 
 
 def save_compressed_data(out_file_name: str, in_file_path: str) -> None:
