@@ -7,7 +7,7 @@ from _geo import get_bounding_box_around_lat_lng_center, get_neighbouring_suburb
 
 
 RADIUS = 50  # circle radius / bounding box half size in meter
-MIN_TREE_DISTANCE = 2  # in meter
+MIN_TREE_DISTANCE = 3  # in meter
 EARTH_RADIUS, EARTH_PRADIUS = get_earth_radius(50.935173)  # latitude Cologne, Germany
 
 
@@ -59,8 +59,6 @@ def cleanup_close_pairs(merged_data: List[Dict[str, Any]], close_pair_list: List
     skipped_tree_ids: List[str] = []
     
     for tree_pair in close_pair_list:
-        trees_checked: bool = False
-        
         tree_1_id: str = tree_pair[0]
         tree_2_id: str = tree_pair[1]
         distance: float = tree_pair[2]
@@ -69,65 +67,33 @@ def cleanup_close_pairs(merged_data: List[Dict[str, Any]], close_pair_list: List
         tree_2 = tree_dict[tree_2_id]
 
         # **********
-        # check if id(s) already skipped
+        # check if min. 1 id is already skipped -> no need to check further
         # **********
-        trees_skipped: Dict[str, bool] = {tree_1_id: False, tree_2_id: False}
-
-        for tree_id in trees_skipped.keys():
+        pair_tree_already_in_list: bool = False
+        for tree_id in [tree_1_id, tree_2_id]:
             if tree_id in skipped_tree_ids:
-                trees_skipped[tree_id] = True
-        
-        if all(trees_skipped.values()):  # both True: ignore both
-            continue
-        if any(trees_skipped.values()):  # True and False: use the tree_id with False, ignore tree_id with True
-            for tree_id, val in trees_skipped.items():
-                if val is True:
-                    continue
-                trees_checked = True
-        
-        # **********
-        # 2020 check
-        # **********
-        # ***
-        # both trees exist in different timelines: take both (== skip none)
-        if trees_checked is False:
-            if tree_1["found_in_dataset"]["2020"] != tree_2["found_in_dataset"]["2020"]:
-                trees_checked = True
-            # ***
-            # both trees have same 2020 bool values in the same timeline
-            else:
-                # ***
-                # both (!) seemingly still existing: check if duplicate -> if so: skip tree with lower completeness
-                if tree_1["found_in_dataset"]["2020"] is True:
-                    skipped_tree_id = _check_duplicate_tree(tree_1, tree_2)
-                    if skipped_tree_id not in skipped_tree_ids:  # add to skip list
-                        skipped_tree_ids.append(skipped_tree_id)
-                    trees_checked = True
+                pair_tree_already_in_list = True
+                break
 
-        
+        if pair_tree_already_in_list is True:
+            continue
+
         # **********
-        # 2017 check
+        # both are in same timeline: use better entry OR use newer entry
         # **********
-        if trees_checked is False:  # above conditions didn't apply
-            # ***
-            # both must exist in 2017 timeline
-            skipped_tree_id = _check_duplicate_tree(tree_1, tree_2)
+        if tree_1["found_in_dataset"]["2020"] == tree_2["found_in_dataset"]["2020"]:  # both True or False: same timeline
+            skipped_tree_id = _check_duplicate_tree(tree_1, tree_2)  # use the "better" tree
             if skipped_tree_id not in skipped_tree_ids:  # add to skip list
                 skipped_tree_ids.append(skipped_tree_id)
-            
-        # ***
-        # debug
-        # if len(keep_trees) <= 1:
-        #     continue
-        # print(distance)
-        # for tree in keep_trees:
-        #     print(tree["tree_id"], tree["found_in_dataset"]["2017"], tree["found_in_dataset"]["2020"], tree["tree_taxonomy"]["genus"], tree["dataset_completeness"])
-        # print("---")
+        else:
+            if tree_1["found_in_dataset"]["2020"] == False:  # OR use the "newer" tree
+                skipped_tree_ids.append(tree_1_id)
+            else:
+                skipped_tree_ids.append(tree_2_id)
 
-    # print(len(skipped_tree_ids))  # debug
-
-    # ***
+    # **********
     # use trees NOT in skip list
+    # **********
     for tree_id in tree_dict.keys():
         if tree_id in skipped_tree_ids:
             continue
