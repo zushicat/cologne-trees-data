@@ -3,7 +3,14 @@ Information about how the data is processed and stored.
 
 The resulting data is based on 2 official "Baumkataster" datasets published by the City of Cologne, Germany, but is heavily modified and enriched.    
  
-This is due to incomplete and/or unreliable (resp. implausible) data in the original datasets. Also, both datasets had to be merged (with a record of the occurrence in respective dataset) to determine tree existence in the past and the present (meaning: is a tree cut down between 2017 and 2020 or is it still existing).
+This is due to incomplete and/or unreliable (resp. implausible) data in the original datasets. Also, both datasets had to be merged (with a record of the occurrence in respective dataset) to determine tree existence in the past and the present (meaning: is a tree cut down between 2017 and 2020 or is it still existing).    
+
+**Note**    
+The record entries in both datasets have no unique id per tree and a certain tolerance regarding the physical measurement of the geographical tree location must be assumed. Therefore it should not be assumed that each entry really represents an unique tree.     
+Hence, there is a process implemented where trees are merged if their distance is < 3 meter:
+- if such a tree pair is existing in the same timeline (i.e. both are in dataset 2020 or only in dataset 2017): use the tree with the higher data completeness (or if equal: take any)
+- if one tree of such a tree pair only occures in datasat 2017 and the other tree occures in the dataset 2020: use the "newer" tree entry occuring in the 2020 dataset
+
 
 **Note**    
 The file [trees_cologne_reduced.json.tar.gz](https://github.com/zushicat/cologne-trees-data/blob/master/data/exports/trees_cologne_reduced.jsonln.tar.gz) is a very reduced version of [trees_cologne.json.tar.gz](https://github.com/zushicat/cologne-trees-data/blob/master/data/exports/trees_cologne.jsonln.tar.gz), suitable for i.e. web applications where lower file size is quite important. (See example at the bottom of this page.)   
@@ -164,12 +171,6 @@ Example:
 
 **2017/2020**
 Bool record if a tree occured in respective dataset. (If 2020 is false, this might be an indicator that this tree is cut down.)    
-
-**Please note**    
-The record entries in both datasets have no unique id per tree and a certain tolerance regarding the physical measurement of the geographical tree location must be assumed. Therefore it should not be assumed that each entry really represents an unique tree.     
-Hence, there is a process implemented where trees are merged if their distance is < 3 meter:
-- if such a tree pair is existing in the same timeline (i.e. both are in dataset 2020 or only in dataset 2017): use the tree with the higher data completeness (or if equal: take any)
-- if one tree of such a tree pair only occures in datasat 2017 and the other tree occures in the dataset 2020: use the "newer" tree entry occuring in the 2020 dataset
 
 
 ### predictions
