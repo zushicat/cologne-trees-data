@@ -9,8 +9,10 @@ verify_ssl = true
 matplotlib = "*"
 numpy = "*"
 pandas = "*"
+requests = "*"
 Shapely = "*"
 sklearn = "*"
+unicode-slugify-latin = "*"
 utm = "*"
 
 
