@@ -1,5 +1,5 @@
 '''
-The whole process takes a while (especially the processes under 4.), 0:36:16.818303 to be precise. 
+The whole process takes a while (especially the processes under 4. and 6.), 0:52:18.818303 to be precise. 
 Temporary results of each step are stored in /tmp and can be deleted after finishing the whole process chain.
 You might want to take a longer coffee break when processing all at once or apply the script step by step.
 '''
@@ -15,6 +15,7 @@ from _process_dataset_2020 import process_dataset_2020
 from _merge_datasets import merge_datasets
 from _tree_neighbours import cleanup_close_pairs, process_tree_neighbours
 from _predict_genus_age import predict_genus_age
+from _osm_type import get_suburb_data, get_tree_location_types
 from _export import create_reduced_data, save_compressed_data
 
 
@@ -103,7 +104,16 @@ _save_tmp_data("data_merged_with_predictions.jsonln", merged_data_with_predictio
 print(f"5. done: {datetime.now()-start_time}")
 
 # *******
-# 6 - write compressed exports to /data/exports
+# 6 - get location types
+# *******
+get_suburb_data()
+merged_data_with_predictions = _load_list_tmp_data("data_merged_with_predictions.jsonln")
+
+merged_data_with_predictions = get_tree_location_types(merged_data_with_predictions)
+_save_tmp_data("data_merged_with_predictions.jsonln", merged_data_with_predictions)
+
+# *******
+# 7 - write compressed exports to /data/exports
 # *******
 save_compressed_data("trees_cologne.jsonln", "../data/tmp/data_merged_with_predictions.jsonln")
 
