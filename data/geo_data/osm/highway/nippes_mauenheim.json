@@ -1,0 +1,5660 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 20429294,
+        "osm_type": "way",
+        "type": "unclassified",
+        "name": "Etzelstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9691876,
+          6.9396274,
+          50.9725752,
+          6.9420653
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9396274,
+            50.9725752
+          ],
+          [
+            6.9401095,
+            50.9720449
+          ],
+          [
+            6.9402821,
+            50.9718115
+          ],
+          [
+            6.9406895,
+            50.9712502
+          ],
+          [
+            6.941039,
+            50.9706491
+          ],
+          [
+            6.9412454,
+            50.9702485
+          ],
+          [
+            6.9412869,
+            50.9701679
+          ],
+          [
+            6.9415296,
+            50.9697465
+          ],
+          [
+            6.9417087,
+            50.9694686
+          ],
+          [
+            6.9419208,
+            50.9692481
+          ],
+          [
+            6.9419808,
+            50.9692095
+          ],
+          [
+            6.9420265,
+            50.9691976
+          ],
+          [
+            6.9420653,
+            50.9691876
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 21417363,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Bergstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9725752,
+          6.9396274,
+          50.973614,
+          6.946318
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9396274,
+            50.9725752
+          ],
+          [
+            6.9403916,
+            50.9728907
+          ],
+          [
+            6.9413334,
+            50.9732819
+          ],
+          [
+            6.9416055,
+            50.9733872
+          ],
+          [
+            6.9418148,
+            50.9734553
+          ],
+          [
+            6.9421548,
+            50.9735332
+          ],
+          [
+            6.9425431,
+            50.9735923
+          ],
+          [
+            6.9429933,
+            50.9736095
+          ],
+          [
+            6.9436439,
+            50.9735942
+          ],
+          [
+            6.9437499,
+            50.973614
+          ],
+          [
+            6.9451054,
+            50.9735803
+          ],
+          [
+            6.9461866,
+            50.9735534
+          ],
+          [
+            6.946318,
+            50.9735385
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22644198,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Eckewartstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9718663,
+          6.9428307,
+          50.9722172,
+          6.9462449
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9428307,
+            50.9718663
+          ],
+          [
+            6.9429708,
+            50.9718931
+          ],
+          [
+            6.9434945,
+            50.9719393
+          ],
+          [
+            6.9439928,
+            50.9719832
+          ],
+          [
+            6.9450068,
+            50.9720724
+          ],
+          [
+            6.9456243,
+            50.9721186
+          ],
+          [
+            6.9461371,
+            50.9721994
+          ],
+          [
+            6.9462449,
+            50.9722172
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22644202,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9702776,
+          6.9430247,
+          50.9705202,
+          6.9433601
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9433601,
+            50.9702776
+          ],
+          [
+            6.943206,
+            50.9703448
+          ],
+          [
+            6.9431538,
+            50.9703817
+          ],
+          [
+            6.9430744,
+            50.9704526
+          ],
+          [
+            6.9430247,
+            50.9705202
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22644204,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Nibelungenplatz",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9739558,
+          6.9390063,
+          50.9743282,
+          6.9396077
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.9395498,
+              50.974214
+            ],
+            [
+              6.9396077,
+              50.9741739
+            ],
+            [
+              6.9392294,
+              50.9739558
+            ],
+            [
+              6.9390063,
+              50.9741101
+            ],
+            [
+              6.9393846,
+              50.9743282
+            ],
+            [
+              6.9395498,
+              50.974214
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22644208,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Nibelungenstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9758861,
+          6.9461742,
+          50.9759135,
+          6.9465485
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9465485,
+            50.9758861
+          ],
+          [
+            6.9463134,
+            50.9759135
+          ],
+          [
+            6.9461742,
+            50.9759125
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22644223,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Neue Kempener Straße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9718663,
+          6.9398731,
+          50.9743981,
+          6.9428307
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9428307,
+            50.9718663
+          ],
+          [
+            6.9426283,
+            50.9720829
+          ],
+          [
+            6.9423929,
+            50.9723009
+          ],
+          [
+            6.9413334,
+            50.9732819
+          ],
+          [
+            6.9409814,
+            50.9736027
+          ],
+          [
+            6.9398731,
+            50.9743981
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22644237,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Neue Kempener Straße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9704137,
+          6.9428307,
+          50.9718663,
+          6.9432685
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9432685,
+            50.9704137
+          ],
+          [
+            6.9431531,
+            50.9704456
+          ],
+          [
+            6.9430795,
+            50.9705219
+          ],
+          [
+            6.9430456,
+            50.9705951
+          ],
+          [
+            6.9429965,
+            50.9710634
+          ],
+          [
+            6.9429839,
+            50.9711832
+          ],
+          [
+            6.9429658,
+            50.9714245
+          ],
+          [
+            6.9429074,
+            50.9716605
+          ],
+          [
+            6.9428307,
+            50.9718663
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22696143,
+        "osm_type": "way",
+        "type": "footway",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9760057,
+          6.9473882,
+          50.9772005,
+          6.9485267
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.9473882,
+              50.9770837
+            ],
+            [
+              6.947491,
+              50.9768536
+            ],
+            [
+              6.9477468,
+              50.9762761
+            ],
+            [
+              6.9478678,
+              50.9760057
+            ],
+            [
+              6.9485267,
+              50.9761225
+            ],
+            [
+              6.9484055,
+              50.9763935
+            ],
+            [
+              6.9481506,
+              50.97697
+            ],
+            [
+              6.9480477,
+              50.9772005
+            ],
+            [
+              6.9473882,
+              50.9770837
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22696144,
+        "osm_type": "way",
+        "type": "footway",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9762513,
+          6.9476115,
+          50.9764144,
+          6.9485006
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9476115,
+            50.9762513
+          ],
+          [
+            6.9477468,
+            50.9762761
+          ],
+          [
+            6.9484055,
+            50.9763935
+          ],
+          [
+            6.9485006,
+            50.9764144
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22696145,
+        "osm_type": "way",
+        "type": "footway",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9768319,
+          6.9473657,
+          50.9769845,
+          6.9482464
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9473657,
+            50.9768319
+          ],
+          [
+            6.947491,
+            50.9768536
+          ],
+          [
+            6.9481506,
+            50.97697
+          ],
+          [
+            6.9482464,
+            50.9769845
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22902716,
+        "osm_type": "way",
+        "type": "living_street",
+        "name": "Gudrunhof",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9735332,
+          6.9414261,
+          50.9750065,
+          6.9421548
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9421548,
+            50.9735332
+          ],
+          [
+            6.9419046,
+            50.9740269
+          ],
+          [
+            6.9419579,
+            50.9741212
+          ],
+          [
+            6.9418471,
+            50.974575
+          ],
+          [
+            6.9417903,
+            50.9746508
+          ],
+          [
+            6.9414261,
+            50.9750065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22902717,
+        "osm_type": "way",
+        "type": "living_street",
+        "name": "Gudrunhof",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9740269,
+          6.941375,
+          50.9745728,
+          6.9419046
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9419046,
+            50.9740269
+          ],
+          [
+            6.9417538,
+            50.9740615
+          ],
+          [
+            6.941375,
+            50.9745728
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22902718,
+        "osm_type": "way",
+        "type": "footway",
+        "name": "Gudrunhof",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.974488,
+          6.940795,
+          50.9747532,
+          6.941375
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.940795,
+            50.9747532
+          ],
+          [
+            6.9410629,
+            50.974488
+          ],
+          [
+            6.941375,
+            50.9745728
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22902719,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Nibelungenstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9749124,
+          6.9432083,
+          50.9756345,
+          6.9433668
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9432083,
+            50.9756345
+          ],
+          [
+            6.9432629,
+            50.9755422
+          ],
+          [
+            6.9432838,
+            50.9753879
+          ],
+          [
+            6.9432896,
+            50.9753453
+          ],
+          [
+            6.9432779,
+            50.9751149
+          ],
+          [
+            6.9433668,
+            50.9749124
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22902720,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Nibelungenstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.974913,
+          6.9431837,
+          50.9751149,
+          6.9432779
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9432779,
+            50.9751149
+          ],
+          [
+            6.9431837,
+            50.974913
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22902721,
+        "osm_type": "way",
+        "type": "living_street",
+        "name": "Utehof",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9749166,
+          6.9393214,
+          50.9754253,
+          6.9412021
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9412021,
+            50.9749166
+          ],
+          [
+            6.9409025,
+            50.9752272
+          ],
+          [
+            6.9408236,
+            50.9752696
+          ],
+          [
+            6.9407556,
+            50.9752819
+          ],
+          [
+            6.9395772,
+            50.9753286
+          ],
+          [
+            6.9394391,
+            50.9753552
+          ],
+          [
+            6.9393214,
+            50.9754253
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22902983,
+        "osm_type": "way",
+        "type": "living_street",
+        "name": "Kriemhildplatz",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9751299,
+          6.9385366,
+          50.975616,
+          6.9393214
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9388262,
+            50.9751299
+          ],
+          [
+            6.9393214,
+            50.9754253
+          ],
+          [
+            6.9390625,
+            50.975616
+          ],
+          [
+            6.9385366,
+            50.9753323
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22902984,
+        "osm_type": "way",
+        "type": "living_street",
+        "name": "Brunhildplatz",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9763306,
+          6.9368212,
+          50.9768307,
+          6.9376003
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9371085,
+            50.9763306
+          ],
+          [
+            6.9376003,
+            50.9766163
+          ],
+          [
+            6.9373434,
+            50.9768307
+          ],
+          [
+            6.9368212,
+            50.9765314
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22902985,
+        "osm_type": "way",
+        "type": "living_street",
+        "name": "Balmungweg",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9768307,
+          6.9373434,
+          50.9770466,
+          6.9377203
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9373434,
+            50.9768307
+          ],
+          [
+            6.9377203,
+            50.9770466
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22902986,
+        "osm_type": "way",
+        "type": "footway",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9770466,
+          6.9373966,
+          50.9775377,
+          6.9377203
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9377203,
+            50.9770466
+          ],
+          [
+            6.9373966,
+            50.9775377
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22903005,
+        "osm_type": "way",
+        "type": "living_street",
+        "name": "Alberichhof",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9758271,
+          6.9378288,
+          50.9760645,
+          6.9382298
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9382298,
+            50.9760645
+          ],
+          [
+            6.9378288,
+            50.9758271
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22903019,
+        "osm_type": "way",
+        "type": "living_street",
+        "name": "Guntherstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9741101,
+          6.9370313,
+          50.9753351,
+          6.9390063
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9390063,
+            50.9741101
+          ],
+          [
+            6.9388242,
+            50.9742316
+          ],
+          [
+            6.9387591,
+            50.9741975
+          ],
+          [
+            6.9379364,
+            50.9747741
+          ],
+          [
+            6.9371359,
+            50.9753351
+          ],
+          [
+            6.9370313,
+            50.9753247
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22903020,
+        "osm_type": "way",
+        "type": "living_street",
+        "name": "Dankwartweg",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9758865,
+          6.9360174,
+          50.9764063,
+          6.9370001
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9370001,
+            50.9764063
+          ],
+          [
+            6.9362477,
+            50.9759876
+          ],
+          [
+            6.9361835,
+            50.9759825
+          ],
+          [
+            6.9360174,
+            50.9758865
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22903021,
+        "osm_type": "way",
+        "type": "living_street",
+        "name": "Irnfriedweg",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9749587,
+          6.9364077,
+          50.9753247,
+          6.9370313
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9364077,
+            50.9749587
+          ],
+          [
+            6.9370313,
+            50.9753247
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22903043,
+        "osm_type": "way",
+        "type": "living_street",
+        "name": "Volkerweg",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9747741,
+          6.9379364,
+          50.9752089,
+          6.9387132
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9379364,
+            50.9747741
+          ],
+          [
+            6.9387132,
+            50.9752089
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22903044,
+        "osm_type": "way",
+        "type": "living_street",
+        "name": "Dietrichweg",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9737987,
+          6.9380781,
+          50.9741975,
+          6.9387591
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9380781,
+            50.9737987
+          ],
+          [
+            6.9382362,
+            50.9738913
+          ],
+          [
+            6.9387591,
+            50.9741975
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22903076,
+        "osm_type": "way",
+        "type": "living_street",
+        "name": "Guntherstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9728907,
+          6.9392294,
+          50.9739558,
+          6.9403916
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9392294,
+            50.9739558
+          ],
+          [
+            6.9393091,
+            50.9739004
+          ],
+          [
+            6.9394856,
+            50.9736965
+          ],
+          [
+            6.9396832,
+            50.9735344
+          ],
+          [
+            6.9399386,
+            50.9733351
+          ],
+          [
+            6.9401669,
+            50.9731325
+          ],
+          [
+            6.9403916,
+            50.9728907
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22903145,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Artushof",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9712502,
+          6.9406895,
+          50.971782,
+          6.9415252
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9406895,
+            50.9712502
+          ],
+          [
+            6.9413311,
+            50.9714765
+          ],
+          [
+            6.9414849,
+            50.9715319
+          ],
+          [
+            6.9415144,
+            50.9715533
+          ],
+          [
+            6.9415252,
+            50.9715791
+          ],
+          [
+            6.9415133,
+            50.9716075
+          ],
+          [
+            6.941381,
+            50.9717576
+          ],
+          [
+            6.9413402,
+            50.9717786
+          ],
+          [
+            6.941289,
+            50.971782
+          ],
+          [
+            6.9412382,
+            50.9717765
+          ],
+          [
+            6.9411954,
+            50.9717562
+          ],
+          [
+            6.9411701,
+            50.9717286
+          ],
+          [
+            6.9411652,
+            50.9716962
+          ],
+          [
+            6.9412837,
+            50.9715372
+          ],
+          [
+            6.9413311,
+            50.9714765
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22903146,
+        "osm_type": "way",
+        "type": "footway",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9723009,
+          6.9423929,
+          50.9726603,
+          6.9438879
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9438879,
+            50.9725903
+          ],
+          [
+            6.9431413,
+            50.9726052
+          ],
+          [
+            6.9431177,
+            50.9726603
+          ],
+          [
+            6.942836,
+            50.9726276
+          ],
+          [
+            6.942416,
+            50.9724653
+          ],
+          [
+            6.9425176,
+            50.9723526
+          ],
+          [
+            6.9423929,
+            50.9723009
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22903147,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Neue Kempener Straße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.971215,
+          6.9434878,
+          50.9719393,
+          6.9435377
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9434878,
+            50.971215
+          ],
+          [
+            6.9435377,
+            50.9716625
+          ],
+          [
+            6.9434945,
+            50.9719393
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22903148,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9698758,
+          6.9423415,
+          50.9705202,
+          6.9430247
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9429529,
+            50.9703949
+          ],
+          [
+            6.9428832,
+            50.9703908
+          ],
+          [
+            6.9423721,
+            50.9701893
+          ],
+          [
+            6.9423415,
+            50.9701567
+          ],
+          [
+            6.9423486,
+            50.970124
+          ],
+          [
+            6.9425869,
+            50.9698834
+          ],
+          [
+            6.9426549,
+            50.9698758
+          ],
+          [
+            6.9427093,
+            50.9698994
+          ],
+          [
+            6.9429774,
+            50.9703408
+          ],
+          [
+            6.9429529,
+            50.9703949
+          ],
+          [
+            6.9430247,
+            50.9705202
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22903149,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Gernotstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9719832,
+          6.943705,
+          50.973614,
+          6.9439928
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9439928,
+            50.9719832
+          ],
+          [
+            6.9439027,
+            50.9725047
+          ],
+          [
+            6.9438879,
+            50.9725903
+          ],
+          [
+            6.943705,
+            50.9728105
+          ],
+          [
+            6.9437499,
+            50.973614
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22917575,
+        "osm_type": "way",
+        "type": "footway",
+        "name": "Eckewartstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9722172,
+          6.9462449,
+          50.972236,
+          6.9463708
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9462449,
+            50.9722172
+          ],
+          [
+            6.9463708,
+            50.972236
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22917576,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Eckewartstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9723715,
+          6.9473323,
+          50.9724393,
+          6.9498915
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9473323,
+            50.9723715
+          ],
+          [
+            6.9477593,
+            50.9724026
+          ],
+          [
+            6.9488512,
+            50.9724369
+          ],
+          [
+            6.9498915,
+            50.9724393
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22917577,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Giselherstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9720724,
+          6.9449588,
+          50.9735803,
+          6.9451054
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9450068,
+            50.9720724
+          ],
+          [
+            6.9449588,
+            50.9723717
+          ],
+          [
+            6.9449611,
+            50.972689
+          ],
+          [
+            6.9451054,
+            50.9735803
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22917579,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Hildebrandstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9724369,
+          6.948844,
+          50.9735052,
+          6.9488512
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9488512,
+            50.9724369
+          ],
+          [
+            6.948844,
+            50.9735052
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22917580,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Ortweinstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9724026,
+          6.9477558,
+          50.9735017,
+          6.9477593
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9477558,
+            50.9735017
+          ],
+          [
+            6.9477593,
+            50.9724026
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22917589,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Siegmundstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9735052,
+          6.948715,
+          50.975138,
+          6.9488626
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.948844,
+            50.9735052
+          ],
+          [
+            6.9488626,
+            50.9738745
+          ],
+          [
+            6.9488488,
+            50.9742962
+          ],
+          [
+            6.9487209,
+            50.9751033
+          ],
+          [
+            6.948715,
+            50.975138
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 22917767,
+        "osm_type": "way",
+        "type": "secondary",
+        "name": "Merheimer Straße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9756281,
+          6.946541,
+          50.9758861,
+          6.9465485
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9465485,
+            50.9758861
+          ],
+          [
+            6.9465426,
+            50.9757456
+          ],
+          [
+            6.946541,
+            50.9756281
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 23349223,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Etzelstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9725752,
+          6.934207,
+          50.9767424,
+          6.9396274
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9396274,
+            50.9725752
+          ],
+          [
+            6.9389527,
+            50.9731541
+          ],
+          [
+            6.9384667,
+            50.973526
+          ],
+          [
+            6.9380781,
+            50.9737987
+          ],
+          [
+            6.9364077,
+            50.9749587
+          ],
+          [
+            6.9355014,
+            50.9755881
+          ],
+          [
+            6.934295,
+            50.9764258
+          ],
+          [
+            6.9342378,
+            50.9764716
+          ],
+          [
+            6.934207,
+            50.9765559
+          ],
+          [
+            6.9342339,
+            50.9766447
+          ],
+          [
+            6.9343069,
+            50.9767424
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 23860555,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Bergstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9735005,
+          6.946318,
+          50.9735385,
+          6.9508816
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.946318,
+            50.9735385
+          ],
+          [
+            6.9465312,
+            50.9735175
+          ],
+          [
+            6.9468946,
+            50.9735221
+          ],
+          [
+            6.9472766,
+            50.9735023
+          ],
+          [
+            6.9477558,
+            50.9735017
+          ],
+          [
+            6.948844,
+            50.9735052
+          ],
+          [
+            6.949888,
+            50.9735005
+          ],
+          [
+            6.9508223,
+            50.9735024
+          ],
+          [
+            6.9508816,
+            50.9735025
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 27714007,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Artushof",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.972082,
+          6.9418793,
+          50.9723009,
+          6.9423929
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9423929,
+            50.9723009
+          ],
+          [
+            6.9418793,
+            50.972082
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 27714008,
+        "osm_type": "way",
+        "type": "footway",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.971782,
+          6.941289,
+          50.972082,
+          6.9418793
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9418793,
+            50.972082
+          ],
+          [
+            6.9413278,
+            50.9718469
+          ],
+          [
+            6.941289,
+            50.971782
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 28675559,
+        "osm_type": "way",
+        "type": "secondary",
+        "name": "Friedrich-Karl-Straße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9751732,
+          6.9493848,
+          50.9751961,
+          6.9497916
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9497916,
+            50.9751961
+          ],
+          [
+            6.9494786,
+            50.9751785
+          ],
+          [
+            6.9494263,
+            50.9751756
+          ],
+          [
+            6.9493848,
+            50.9751732
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 28700198,
+        "osm_type": "way",
+        "type": "tertiary",
+        "name": "Merheimer Straße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9758861,
+          6.9462062,
+          50.9771502,
+          6.9466293
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9465485,
+            50.9758861
+          ],
+          [
+            6.9466293,
+            50.9760129
+          ],
+          [
+            6.9462062,
+            50.9771502
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 29424739,
+        "osm_type": "way",
+        "type": "footway",
+        "name": "Dankwartweg",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9757414,
+          6.9357666,
+          50.9758865,
+          6.9360174
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9360174,
+            50.9758865
+          ],
+          [
+            6.9357666,
+            50.9757414
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 29424740,
+        "osm_type": "way",
+        "type": "living_street",
+        "name": "Dankwartweg",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9755881,
+          6.9355014,
+          50.9757414,
+          6.9357666
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9355014,
+            50.9755881
+          ],
+          [
+            6.9357666,
+            50.9757414
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 40111326,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.977146,
+          6.9355748,
+          50.9772963,
+          6.9359418
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9359418,
+            50.977146
+          ],
+          [
+            6.9356925,
+            50.9772162
+          ],
+          [
+            6.9355748,
+            50.9772963
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 52437763,
+        "osm_type": "way",
+        "type": "secondary",
+        "name": "Merheimer Straße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9716607,
+          6.9463649,
+          50.9718007,
+          6.9463948
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9463649,
+            50.9718007
+          ],
+          [
+            6.9463948,
+            50.9716607
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 52520377,
+        "osm_type": "way",
+        "type": "secondary",
+        "name": "Friedrich-Karl-Straße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9754602,
+          6.947213,
+          50.9756768,
+          6.9478383
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9478383,
+            50.9754602
+          ],
+          [
+            6.947213,
+            50.9756768
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 52520378,
+        "osm_type": "way",
+        "type": "secondary",
+        "name": "Friedrich-Karl-Straße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.975138,
+          6.9478383,
+          50.9754602,
+          6.9493848
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9493848,
+            50.9751732
+          ],
+          [
+            6.9490621,
+            50.9751551
+          ],
+          [
+            6.948715,
+            50.975138
+          ],
+          [
+            6.948364,
+            50.975267
+          ],
+          [
+            6.9480214,
+            50.9753929
+          ],
+          [
+            6.9479669,
+            50.9754129
+          ],
+          [
+            6.9478383,
+            50.9754602
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 61997872,
+        "osm_type": "way",
+        "type": "tertiary",
+        "name": "Schmiedegasse",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.977146,
+          6.9359418,
+          50.9775956,
+          6.9376176
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9376176,
+            50.9775956
+          ],
+          [
+            6.9373966,
+            50.9775377
+          ],
+          [
+            6.9359418,
+            50.977146
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 94587472,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Nibelungenstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.974214,
+          6.9395498,
+          50.9743981,
+          6.9398731
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9398731,
+            50.9743981
+          ],
+          [
+            6.9395498,
+            50.974214
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 94587474,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Neue Kempener Straße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9743981,
+          6.9359418,
+          50.977146,
+          6.9398731
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9398731,
+            50.9743981
+          ],
+          [
+            6.9395666,
+            50.9746123
+          ],
+          [
+            6.9392206,
+            50.9748584
+          ],
+          [
+            6.9388262,
+            50.9751299
+          ],
+          [
+            6.9387132,
+            50.9752089
+          ],
+          [
+            6.9385366,
+            50.9753323
+          ],
+          [
+            6.9378288,
+            50.9758271
+          ],
+          [
+            6.9371085,
+            50.9763306
+          ],
+          [
+            6.9370001,
+            50.9764063
+          ],
+          [
+            6.9368212,
+            50.9765314
+          ],
+          [
+            6.9362785,
+            50.976909
+          ],
+          [
+            6.9359418,
+            50.977146
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 133752227,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9769745,
+          6.9377546,
+          50.9776206,
+          6.9385471
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9380398,
+            50.9769745
+          ],
+          [
+            6.9379024,
+            50.9770014
+          ],
+          [
+            6.9378577,
+            50.9770469
+          ],
+          [
+            6.9378251,
+            50.9771108
+          ],
+          [
+            6.9377907,
+            50.9771995
+          ],
+          [
+            6.9377546,
+            50.9772601
+          ],
+          [
+            6.9377546,
+            50.9773251
+          ],
+          [
+            6.9378732,
+            50.9774561
+          ],
+          [
+            6.9379729,
+            50.9774994
+          ],
+          [
+            6.9383546,
+            50.9776109
+          ],
+          [
+            6.9384457,
+            50.9776206
+          ],
+          [
+            6.9384955,
+            50.9776184
+          ],
+          [
+            6.9385471,
+            50.9776109
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 133752239,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9761004,
+          6.9394922,
+          50.9763063,
+          6.9397324
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9397324,
+            50.9763063
+          ],
+          [
+            6.9394922,
+            50.9761004
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 133752297,
+        "osm_type": "way",
+        "type": "footway",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9763038,
+          6.9380271,
+          50.9778449,
+          6.9419044
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9399401,
+            50.9778323
+          ],
+          [
+            6.9397914,
+            50.9778368
+          ],
+          [
+            6.9396173,
+            50.9778449
+          ],
+          [
+            6.9394368,
+            50.9778368
+          ],
+          [
+            6.9392563,
+            50.9778192
+          ],
+          [
+            6.9390435,
+            50.9777881
+          ],
+          [
+            6.9388716,
+            50.9777543
+          ],
+          [
+            6.9387384,
+            50.9777056
+          ],
+          [
+            6.9386266,
+            50.9776555
+          ],
+          [
+            6.9385471,
+            50.9776109
+          ],
+          [
+            6.9384989,
+            50.9775832
+          ],
+          [
+            6.9384483,
+            50.977554
+          ],
+          [
+            6.9383838,
+            50.9774918
+          ],
+          [
+            6.9382871,
+            50.9774214
+          ],
+          [
+            6.9382226,
+            50.9773538
+          ],
+          [
+            6.9381625,
+            50.9772969
+          ],
+          [
+            6.9381066,
+            50.9771928
+          ],
+          [
+            6.9380657,
+            50.9771102
+          ],
+          [
+            6.9380486,
+            50.9770453
+          ],
+          [
+            6.9380398,
+            50.9769745
+          ],
+          [
+            6.9380335,
+            50.9769235
+          ],
+          [
+            6.9380271,
+            50.9768707
+          ],
+          [
+            6.9380486,
+            50.976753
+          ],
+          [
+            6.938156,
+            50.9766272
+          ],
+          [
+            6.9382699,
+            50.9765149
+          ],
+          [
+            6.938358,
+            50.9764404
+          ],
+          [
+            6.938444,
+            50.9763823
+          ],
+          [
+            6.9385622,
+            50.9763457
+          ],
+          [
+            6.9387062,
+            50.9763132
+          ],
+          [
+            6.9388265,
+            50.9763051
+          ],
+          [
+            6.938964,
+            50.9763038
+          ],
+          [
+            6.9390736,
+            50.9763119
+          ],
+          [
+            6.9392606,
+            50.9763403
+          ],
+          [
+            6.9393057,
+            50.9763552
+          ],
+          [
+            6.9395615,
+            50.9763904
+          ],
+          [
+            6.9396592,
+            50.9764079
+          ],
+          [
+            6.9400914,
+            50.9764854
+          ],
+          [
+            6.9404821,
+            50.9765555
+          ],
+          [
+            6.9406252,
+            50.9765812
+          ],
+          [
+            6.940709,
+            50.9766975
+          ],
+          [
+            6.9407649,
+            50.9767801
+          ],
+          [
+            6.940853,
+            50.9768261
+          ],
+          [
+            6.9411582,
+            50.9768599
+          ],
+          [
+            6.9417341,
+            50.9769695
+          ],
+          [
+            6.94182,
+            50.9769709
+          ],
+          [
+            6.9419044,
+            50.9769423
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 133752321,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9772601,
+          6.9376463,
+          50.9774994,
+          6.9379729
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9379729,
+            50.9774994
+          ],
+          [
+            6.9377116,
+            50.9774377
+          ],
+          [
+            6.937648,
+            50.9774128
+          ],
+          [
+            6.9376463,
+            50.9773922
+          ],
+          [
+            6.93766,
+            50.9773695
+          ],
+          [
+            6.9377546,
+            50.9772601
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 133752337,
+        "osm_type": "way",
+        "type": "footway",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9754327,
+          6.9422347,
+          50.9759173,
+          6.9425137
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9422347,
+            50.9759173
+          ],
+          [
+            6.9423105,
+            50.9757395
+          ],
+          [
+            6.9423273,
+            50.9757084
+          ],
+          [
+            6.9423397,
+            50.9756854
+          ],
+          [
+            6.9424016,
+            50.9756237
+          ],
+          [
+            6.9424356,
+            50.975565
+          ],
+          [
+            6.9425137,
+            50.9754327
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 133752343,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9760171,
+          6.939595,
+          50.9762794,
+          6.9409888
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9409888,
+            50.9762794
+          ],
+          [
+            6.9408764,
+            50.9762585
+          ],
+          [
+            6.9404999,
+            50.9761886
+          ],
+          [
+            6.940273,
+            50.9761465
+          ],
+          [
+            6.9400366,
+            50.9761026
+          ],
+          [
+            6.9398245,
+            50.9760632
+          ],
+          [
+            6.939595,
+            50.9760171
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 150675111,
+        "osm_type": "way",
+        "type": "tertiary",
+        "name": "Etzelstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.976739,
+          6.9319935,
+          50.9781429,
+          6.9343069
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9319935,
+            50.9781429
+          ],
+          [
+            6.9327414,
+            50.9776253
+          ],
+          [
+            6.933345,
+            50.9771885
+          ],
+          [
+            6.9336829,
+            50.9769201
+          ],
+          [
+            6.9338279,
+            50.9768169
+          ],
+          [
+            6.9339332,
+            50.9767774
+          ],
+          [
+            6.9340443,
+            50.9767489
+          ],
+          [
+            6.9342028,
+            50.976739
+          ],
+          [
+            6.9343069,
+            50.9767424
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 155798951,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Grüner Hof",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9751551,
+          6.9487191,
+          50.9759244,
+          6.9490621
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9490621,
+            50.9751551
+          ],
+          [
+            6.9490451,
+            50.9751932
+          ],
+          [
+            6.948906,
+            50.9755052
+          ],
+          [
+            6.9487191,
+            50.9759244
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 155798952,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Grüner Hof",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9754129,
+          6.9478198,
+          50.9757591,
+          6.9479669
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9478198,
+            50.9757591
+          ],
+          [
+            6.9479458,
+            50.9754709
+          ],
+          [
+            6.9479669,
+            50.9754129
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 155798953,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Grüner Hof",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9757591,
+          6.9472298,
+          50.9773114,
+          6.9487191
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9478198,
+            50.9757591
+          ],
+          [
+            6.9477261,
+            50.9759805
+          ],
+          [
+            6.9476115,
+            50.9762513
+          ],
+          [
+            6.9473657,
+            50.9768319
+          ],
+          [
+            6.9472298,
+            50.9771529
+          ],
+          [
+            6.9481006,
+            50.9773114
+          ],
+          [
+            6.9482464,
+            50.9769845
+          ],
+          [
+            6.9485006,
+            50.9764144
+          ],
+          [
+            6.9486254,
+            50.9761344
+          ],
+          [
+            6.9487191,
+            50.9759244
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 155798964,
+        "osm_type": "way",
+        "type": "cycleway",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9751033,
+          6.9466934,
+          50.9757631,
+          6.9501008
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9466934,
+            50.9756974
+          ],
+          [
+            6.9467349,
+            50.9757443
+          ],
+          [
+            6.9468396,
+            50.9757631
+          ],
+          [
+            6.9476146,
+            50.9754947
+          ],
+          [
+            6.948004,
+            50.9753532
+          ],
+          [
+            6.9485065,
+            50.9751657
+          ],
+          [
+            6.9486079,
+            50.975129
+          ],
+          [
+            6.9487209,
+            50.9751033
+          ],
+          [
+            6.9488391,
+            50.9751061
+          ],
+          [
+            6.9495958,
+            50.9751383
+          ],
+          [
+            6.9498223,
+            50.9751393
+          ],
+          [
+            6.9499859,
+            50.9751212
+          ],
+          [
+            6.9500168,
+            50.9751178
+          ],
+          [
+            6.9501008,
+            50.9751069
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 155798965,
+        "osm_type": "way",
+        "type": "cycleway",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9751869,
+          6.9467529,
+          50.9760145,
+          6.9501271
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9501271,
+            50.9753064
+          ],
+          [
+            6.9500292,
+            50.9752976
+          ],
+          [
+            6.9498034,
+            50.9752538
+          ],
+          [
+            6.9496713,
+            50.9752322
+          ],
+          [
+            6.9494071,
+            50.975214
+          ],
+          [
+            6.9492047,
+            50.9752009
+          ],
+          [
+            6.9490451,
+            50.9751932
+          ],
+          [
+            6.9489045,
+            50.9751869
+          ],
+          [
+            6.9487124,
+            50.9751869
+          ],
+          [
+            6.9485512,
+            50.9752344
+          ],
+          [
+            6.9479458,
+            50.9754709
+          ],
+          [
+            6.9471446,
+            50.9757626
+          ],
+          [
+            6.9467821,
+            50.9758941
+          ],
+          [
+            6.9467529,
+            50.9760145
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 155798971,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9691876,
+          6.9420653,
+          50.9721994,
+          6.9461546
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9461371,
+            50.9721994
+          ],
+          [
+            6.9461546,
+            50.9720953
+          ],
+          [
+            6.9460167,
+            50.9717797
+          ],
+          [
+            6.9459164,
+            50.9716125
+          ],
+          [
+            6.9457652,
+            50.9715388
+          ],
+          [
+            6.9453908,
+            50.9714127
+          ],
+          [
+            6.9452713,
+            50.9714203
+          ],
+          [
+            6.9450766,
+            50.9714639
+          ],
+          [
+            6.9449131,
+            50.9714827
+          ],
+          [
+            6.9447497,
+            50.9714567
+          ],
+          [
+            6.9445535,
+            50.9713815
+          ],
+          [
+            6.9442366,
+            50.9711954
+          ],
+          [
+            6.9440234,
+            50.9710334
+          ],
+          [
+            6.9438228,
+            50.9708228
+          ],
+          [
+            6.9437022,
+            50.9706879
+          ],
+          [
+            6.9435034,
+            50.9704523
+          ],
+          [
+            6.9433601,
+            50.9702776
+          ],
+          [
+            6.9432361,
+            50.9700771
+          ],
+          [
+            6.9430912,
+            50.9698004
+          ],
+          [
+            6.9430451,
+            50.9697278
+          ],
+          [
+            6.9429825,
+            50.9696647
+          ],
+          [
+            6.9428921,
+            50.9695991
+          ],
+          [
+            6.9428015,
+            50.969559
+          ],
+          [
+            6.9427051,
+            50.9695367
+          ],
+          [
+            6.9424689,
+            50.9695198
+          ],
+          [
+            6.942363,
+            50.9695047
+          ],
+          [
+            6.9422575,
+            50.9694767
+          ],
+          [
+            6.9421491,
+            50.9694
+          ],
+          [
+            6.9420927,
+            50.969321
+          ],
+          [
+            6.9420727,
+            50.9692505
+          ],
+          [
+            6.9420653,
+            50.9691876
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 157390898,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9705202,
+          6.9430247,
+          50.9705951,
+          6.9430456
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9430247,
+            50.9705202
+          ],
+          [
+            6.9430456,
+            50.9705951
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 160146398,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Grüner Hof",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9773114,
+          6.9479922,
+          50.9775736,
+          6.9481006
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9481006,
+            50.9773114
+          ],
+          [
+            6.9480291,
+            50.9774716
+          ],
+          [
+            6.9479922,
+            50.9775736
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 160146403,
+        "osm_type": "way",
+        "type": "footway",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9759805,
+          6.9477261,
+          50.9760057,
+          6.9478678
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9478678,
+            50.9760057
+          ],
+          [
+            6.9477261,
+            50.9759805
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 160146406,
+        "osm_type": "way",
+        "type": "footway",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9761225,
+          6.9485267,
+          50.9761344,
+          6.9486254
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9486254,
+            50.9761344
+          ],
+          [
+            6.9485267,
+            50.9761225
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 164962472,
+        "osm_type": "way",
+        "type": "secondary",
+        "name": "Merheimer Straße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9718007,
+          6.94626,
+          50.9721669,
+          6.9463649
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.94626,
+            50.9721669
+          ],
+          [
+            6.9463649,
+            50.9718007
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 203855324,
+        "osm_type": "way",
+        "type": "living_street",
+        "name": "Guntherstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9753247,
+          6.9350054,
+          50.9769149,
+          6.9370313
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9370313,
+            50.9753247
+          ],
+          [
+            6.936182,
+            50.9759272
+          ],
+          [
+            6.9361835,
+            50.9759825
+          ],
+          [
+            6.93529,
+            50.9766151
+          ],
+          [
+            6.93516,
+            50.9766995
+          ],
+          [
+            6.9350571,
+            50.9768038
+          ],
+          [
+            6.9350054,
+            50.9769149
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 208597658,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Grüner Hof",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9757591,
+          6.9478198,
+          50.9759244,
+          6.9487191
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9487191,
+            50.9759244
+          ],
+          [
+            6.9478198,
+            50.9757591
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 222748693,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9718865,
+          6.947278,
+          50.9724022,
+          6.9510014
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.947278,
+            50.9718865
+          ],
+          [
+            6.9475305,
+            50.9719471
+          ],
+          [
+            6.947672,
+            50.9719758
+          ],
+          [
+            6.9487478,
+            50.9720931
+          ],
+          [
+            6.9498628,
+            50.9722065
+          ],
+          [
+            6.9501627,
+            50.9722388
+          ],
+          [
+            6.9508121,
+            50.9723235
+          ],
+          [
+            6.9510014,
+            50.9724022
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 222930857,
+        "osm_type": "way",
+        "type": "footway",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9717209,
+          6.9463708,
+          50.972236,
+          6.9464829
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9463708,
+            50.972236
+          ],
+          [
+            6.9464677,
+            50.9717909
+          ],
+          [
+            6.9464829,
+            50.9717209
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 222930863,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9715215,
+          6.9460167,
+          50.9717797,
+          6.9462347
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9462347,
+            50.9715215
+          ],
+          [
+            6.9461908,
+            50.9715752
+          ],
+          [
+            6.9461122,
+            50.9716787
+          ],
+          [
+            6.946126,
+            50.9717572
+          ],
+          [
+            6.9460779,
+            50.9717671
+          ],
+          [
+            6.9460167,
+            50.9717797
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 231797779,
+        "osm_type": "way",
+        "type": "service",
+        "name": "Eckewartstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.972236,
+          6.9463708,
+          50.9723715,
+          6.9473323
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9463708,
+            50.972236
+          ],
+          [
+            6.9473323,
+            50.9723715
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 232418208,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Irnfriedweg",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9756731,
+          6.9375523,
+          50.9758271,
+          6.9378288
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9378288,
+            50.9758271
+          ],
+          [
+            6.9375523,
+            50.9756731
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 232418209,
+        "osm_type": "way",
+        "type": "footway",
+        "name": "Irnfriedweg",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9753247,
+          6.9370313,
+          50.9756731,
+          6.9375523
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9375523,
+            50.9756731
+          ],
+          [
+            6.9370641,
+            50.9754011
+          ],
+          [
+            6.9370313,
+            50.9753247
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 234975546,
+        "osm_type": "way",
+        "type": "tertiary",
+        "name": "Schmiedegasse",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9767424,
+          6.9343069,
+          50.977146,
+          6.9359418
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9359418,
+            50.977146
+          ],
+          [
+            6.9356817,
+            50.9770818
+          ],
+          [
+            6.9350054,
+            50.9769149
+          ],
+          [
+            6.9348065,
+            50.9768658
+          ],
+          [
+            6.9343069,
+            50.9767424
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 258092651,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9747751,
+          6.9443717,
+          50.9748477,
+          6.9459977
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9443717,
+            50.9747751
+          ],
+          [
+            6.9452881,
+            50.9748161
+          ],
+          [
+            6.9459977,
+            50.9748477
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 258092652,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9738189,
+          6.9451348,
+          50.9740013,
+          6.9451588
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9451348,
+            50.9738189
+          ],
+          [
+            6.9451588,
+            50.9740013
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 258092653,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9751831,
+          6.9452572,
+          50.9752361,
+          6.9452723
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9452572,
+            50.9751831
+          ],
+          [
+            6.9452723,
+            50.9752361
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 258092654,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9738001,
+          6.9452629,
+          50.9755796,
+          6.9459977
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9452629,
+            50.9755525
+          ],
+          [
+            6.9459832,
+            50.9755796
+          ],
+          [
+            6.945997,
+            50.9752123
+          ],
+          [
+            6.9459977,
+            50.9748477
+          ],
+          [
+            6.9459948,
+            50.9746674
+          ],
+          [
+            6.9459774,
+            50.9744622
+          ],
+          [
+            6.945955,
+            50.9741364
+          ],
+          [
+            6.9459169,
+            50.9738001
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 258092655,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9740145,
+          6.9451873,
+          50.9741269,
+          6.9452138
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9451873,
+            50.9740151
+          ],
+          [
+            6.9452012,
+            50.9740145
+          ],
+          [
+            6.9452138,
+            50.9741269
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 258092656,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9741265,
+          6.9451778,
+          50.9744294,
+          6.9452105
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9451778,
+            50.9741265
+          ],
+          [
+            6.9452105,
+            50.9744294
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 258092657,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.975146,
+          6.9443856,
+          50.9752123,
+          6.945997
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9443856,
+            50.975146
+          ],
+          [
+            6.9452572,
+            50.9751831
+          ],
+          [
+            6.945997,
+            50.9752123
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 258092658,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9744298,
+          6.9452182,
+          50.9750396,
+          6.945305
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9452677,
+            50.9750396
+          ],
+          [
+            6.9452881,
+            50.9748161
+          ],
+          [
+            6.945305,
+            50.9746383
+          ],
+          [
+            6.9452347,
+            50.974616
+          ],
+          [
+            6.9452182,
+            50.9744298
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 258092659,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9743935,
+          6.9443574,
+          50.9744622,
+          6.9459774
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9443574,
+            50.9743935
+          ],
+          [
+            6.9452105,
+            50.9744294
+          ],
+          [
+            6.9452182,
+            50.9744298
+          ],
+          [
+            6.9459774,
+            50.9744622
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 258092660,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9741166,
+          6.944347,
+          50.9741364,
+          6.945955
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.944347,
+            50.9741166
+          ],
+          [
+            6.9451778,
+            50.9741265
+          ],
+          [
+            6.9452138,
+            50.9741269
+          ],
+          [
+            6.945955,
+            50.9741364
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 258092661,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9752361,
+          6.9452277,
+          50.9758793,
+          6.9452881
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9452277,
+            50.9758793
+          ],
+          [
+            6.9452619,
+            50.9755625
+          ],
+          [
+            6.9452629,
+            50.9755525
+          ],
+          [
+            6.9452881,
+            50.9753103
+          ],
+          [
+            6.9452723,
+            50.9752361
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 258092662,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9738001,
+          6.9443454,
+          50.9755625,
+          6.9459169
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9459169,
+            50.9738001
+          ],
+          [
+            6.9451348,
+            50.9738189
+          ],
+          [
+            6.9443454,
+            50.9738387
+          ],
+          [
+            6.944347,
+            50.9741166
+          ],
+          [
+            6.9443574,
+            50.9743935
+          ],
+          [
+            6.9443717,
+            50.9747751
+          ],
+          [
+            6.9443856,
+            50.975146
+          ],
+          [
+            6.9443984,
+            50.9754875
+          ],
+          [
+            6.9452619,
+            50.9755625
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 278480215,
+        "osm_type": "way",
+        "type": "cycleway",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.969049,
+          6.948157,
+          50.9724369,
+          6.9488512
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9486378,
+            50.969049
+          ],
+          [
+            6.9485875,
+            50.9690828
+          ],
+          [
+            6.9485342,
+            50.9691345
+          ],
+          [
+            6.948157,
+            50.9697804
+          ],
+          [
+            6.9483247,
+            50.9704014
+          ],
+          [
+            6.9483455,
+            50.9705885
+          ],
+          [
+            6.9484592,
+            50.9710427
+          ],
+          [
+            6.9486341,
+            50.9716317
+          ],
+          [
+            6.9487131,
+            50.971898
+          ],
+          [
+            6.9487478,
+            50.9720931
+          ],
+          [
+            6.9488512,
+            50.9724369
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 349762012,
+        "osm_type": "way",
+        "type": "secondary",
+        "name": "Merheimer Straße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9726822,
+          6.9461826,
+          50.9751266,
+          6.9465431
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9465407,
+            50.9751266
+          ],
+          [
+            6.946539,
+            50.975088
+          ],
+          [
+            6.9465431,
+            50.9749222
+          ],
+          [
+            6.9465158,
+            50.9745633
+          ],
+          [
+            6.9464705,
+            50.9742257
+          ],
+          [
+            6.9463772,
+            50.973805
+          ],
+          [
+            6.946318,
+            50.9735385
+          ],
+          [
+            6.946236,
+            50.973167
+          ],
+          [
+            6.9461964,
+            50.9729646
+          ],
+          [
+            6.9461899,
+            50.972832
+          ],
+          [
+            6.9461885,
+            50.9728024
+          ],
+          [
+            6.9461826,
+            50.9726822
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 349762013,
+        "osm_type": "way",
+        "type": "secondary",
+        "name": "Merheimer Straße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9751266,
+          6.9465376,
+          50.9756281,
+          6.946541
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.946541,
+            50.9756281
+          ],
+          [
+            6.9465376,
+            50.9753829
+          ],
+          [
+            6.9465407,
+            50.9751266
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 349762014,
+        "osm_type": "way",
+        "type": "secondary",
+        "name": "Merheimer Straße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9721669,
+          6.9461826,
+          50.9726822,
+          6.94626
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9461826,
+            50.9726822
+          ],
+          [
+            6.9461831,
+            50.9725253
+          ],
+          [
+            6.9462176,
+            50.9723635
+          ],
+          [
+            6.9462449,
+            50.9722172
+          ],
+          [
+            6.94626,
+            50.9721669
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 349764788,
+        "osm_type": "way",
+        "type": "tertiary",
+        "name": "Merheimer Straße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9758861,
+          6.9459035,
+          50.9771816,
+          6.9465485
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9459035,
+            50.9771816
+          ],
+          [
+            6.946437,
+            50.9760139
+          ],
+          [
+            6.9465485,
+            50.9758861
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 349767054,
+        "osm_type": "way",
+        "type": "secondary",
+        "name": "Friedrich-Karl-Straße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9756768,
+          6.9465485,
+          50.9758861,
+          6.947213
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.947213,
+            50.9756768
+          ],
+          [
+            6.9469762,
+            50.9757589
+          ],
+          [
+            6.9467538,
+            50.975825
+          ],
+          [
+            6.9465485,
+            50.9758861
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 349767055,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Nibelungenstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9743981,
+          6.9398731,
+          50.9758949,
+          6.9454875
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9454875,
+            50.9758949
+          ],
+          [
+            6.9452277,
+            50.9758793
+          ],
+          [
+            6.9450681,
+            50.9758704
+          ],
+          [
+            6.9441642,
+            50.9757923
+          ],
+          [
+            6.9436385,
+            50.9757203
+          ],
+          [
+            6.9432083,
+            50.9756345
+          ],
+          [
+            6.9428785,
+            50.9755447
+          ],
+          [
+            6.9425137,
+            50.9754327
+          ],
+          [
+            6.9420486,
+            50.9752505
+          ],
+          [
+            6.941955,
+            50.9752138
+          ],
+          [
+            6.9414261,
+            50.9750065
+          ],
+          [
+            6.9412021,
+            50.9749166
+          ],
+          [
+            6.940795,
+            50.9747532
+          ],
+          [
+            6.9404266,
+            50.9746053
+          ],
+          [
+            6.9398731,
+            50.9743981
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 368474546,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9756731,
+          6.949191,
+          50.9757256,
+          6.9494709
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9494709,
+            50.9757256
+          ],
+          [
+            6.949191,
+            50.9756731
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 368474548,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9758309,
+          6.9491163,
+          50.9758844,
+          6.9493931
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9493931,
+            50.9758844
+          ],
+          [
+            6.9491163,
+            50.9758309
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 368474549,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9751756,
+          6.9490686,
+          50.9759806,
+          6.9494263
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9493422,
+            50.9759806
+          ],
+          [
+            6.9490686,
+            50.9759316
+          ],
+          [
+            6.9491163,
+            50.9758309
+          ],
+          [
+            6.949191,
+            50.9756731
+          ],
+          [
+            6.9494071,
+            50.975214
+          ],
+          [
+            6.9494263,
+            50.9751756
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 543390187,
+        "osm_type": "way",
+        "type": "cycleway",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9757443,
+          6.9467349,
+          50.9758941,
+          6.9467821
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9467349,
+            50.9757443
+          ],
+          [
+            6.9467538,
+            50.975825
+          ],
+          [
+            6.9467821,
+            50.9758941
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 593916079,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9704796,
+          6.9418121,
+          50.9711403,
+          6.9421124
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9418121,
+            50.9711403
+          ],
+          [
+            6.9418933,
+            50.9709616
+          ],
+          [
+            6.9421124,
+            50.9704796
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 593916151,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9696348,
+          6.9411921,
+          50.9709616,
+          6.942128
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9418933,
+            50.9709616
+          ],
+          [
+            6.9411921,
+            50.9707031
+          ],
+          [
+            6.9413793,
+            50.9703446
+          ],
+          [
+            6.9414378,
+            50.9703029
+          ],
+          [
+            6.9414963,
+            50.9702611
+          ],
+          [
+            6.942128,
+            50.9696348
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 593916158,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9702485,
+          6.9412454,
+          50.9703029,
+          6.9414378
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9414378,
+            50.9703029
+          ],
+          [
+            6.9412454,
+            50.9702485
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 598391714,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9764716,
+          6.9338279,
+          50.9768169,
+          6.9342378
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9338279,
+            50.9768169
+          ],
+          [
+            6.9338897,
+            50.976741
+          ],
+          [
+            6.9342378,
+            50.9764716
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 598391715,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9738913,
+          6.9380587,
+          50.9739658,
+          6.9382362
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9380587,
+            50.9739658
+          ],
+          [
+            6.9381048,
+            50.9739312
+          ],
+          [
+            6.9381494,
+            50.9739548
+          ],
+          [
+            6.9382362,
+            50.9738913
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 598391716,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9717765,
+          6.9410677,
+          50.9719794,
+          6.9412382
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9410677,
+            50.9719794
+          ],
+          [
+            6.9412382,
+            50.9717765
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 598391719,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9709009,
+          6.94245,
+          50.9710634,
+          6.9429965
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9424862,
+            50.9709009
+          ],
+          [
+            6.94245,
+            50.9710472
+          ],
+          [
+            6.9429965,
+            50.9710634
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 617958013,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.976739,
+          6.9306765,
+          50.9793039,
+          6.9342028
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9342028,
+            50.976739
+          ],
+          [
+            6.9341809,
+            50.9767818
+          ],
+          [
+            6.9341674,
+            50.9768122
+          ],
+          [
+            6.9340736,
+            50.9768325
+          ],
+          [
+            6.9339931,
+            50.9768637
+          ],
+          [
+            6.9338791,
+            50.9769364
+          ],
+          [
+            6.9338127,
+            50.9769773
+          ],
+          [
+            6.933745,
+            50.9770191
+          ],
+          [
+            6.9336726,
+            50.9770926
+          ],
+          [
+            6.9334423,
+            50.977241
+          ],
+          [
+            6.9328311,
+            50.9776702
+          ],
+          [
+            6.932589,
+            50.9778525
+          ],
+          [
+            6.9324025,
+            50.9779935
+          ],
+          [
+            6.9323368,
+            50.9780434
+          ],
+          [
+            6.932255,
+            50.9780467
+          ],
+          [
+            6.9321866,
+            50.9780636
+          ],
+          [
+            6.9320901,
+            50.9781278
+          ],
+          [
+            6.9320048,
+            50.9782071
+          ],
+          [
+            6.9319278,
+            50.9782849
+          ],
+          [
+            6.9318353,
+            50.9783701
+          ],
+          [
+            6.9317159,
+            50.9784478
+          ],
+          [
+            6.9316526,
+            50.9784895
+          ],
+          [
+            6.9315107,
+            50.9785863
+          ],
+          [
+            6.9312116,
+            50.9787999
+          ],
+          [
+            6.9310118,
+            50.9789485
+          ],
+          [
+            6.9309354,
+            50.979011
+          ],
+          [
+            6.9307651,
+            50.9791748
+          ],
+          [
+            6.9307057,
+            50.9792687
+          ],
+          [
+            6.9306765,
+            50.9793039
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 617958960,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9759947,
+          6.9463088,
+          50.9760145,
+          6.9467529
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9467529,
+            50.9760145
+          ],
+          [
+            6.9466293,
+            50.9760129
+          ],
+          [
+            6.946437,
+            50.9760139
+          ],
+          [
+            6.9463088,
+            50.9759947
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 617958961,
+        "osm_type": "way",
+        "type": "cycleway",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9757905,
+          6.9463088,
+          50.9759947,
+          6.9463232
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9463088,
+            50.9759947
+          ],
+          [
+            6.9463134,
+            50.9759135
+          ],
+          [
+            6.9463232,
+            50.9757905
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 618994641,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9756974,
+          6.9463232,
+          50.9757905,
+          6.9466934
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9463232,
+            50.9757905
+          ],
+          [
+            6.9465426,
+            50.9757456
+          ],
+          [
+            6.9466934,
+            50.9756974
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 669666613,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9753879,
+          6.9432838,
+          50.9755211,
+          6.9440735
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9432838,
+            50.9753879
+          ],
+          [
+            6.9440735,
+            50.9755211
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 669666614,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9749899,
+          6.941955,
+          50.9753879,
+          6.9432838
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9432838,
+            50.9753879
+          ],
+          [
+            6.9431974,
+            50.9753649
+          ],
+          [
+            6.943177,
+            50.9752677
+          ],
+          [
+            6.9429534,
+            50.9752718
+          ],
+          [
+            6.9428978,
+            50.9752618
+          ],
+          [
+            6.942183,
+            50.9749899
+          ],
+          [
+            6.941955,
+            50.9752138
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 669667409,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9752505,
+          6.9416519,
+          50.9754558,
+          6.9420486
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9420486,
+            50.9752505
+          ],
+          [
+            6.9418324,
+            50.9754558
+          ],
+          [
+            6.9416519,
+            50.9753867
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 751628955,
+        "osm_type": "way",
+        "type": "secondary",
+        "name": "Mauenheimer Gürtel",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9717073,
+          6.9460359,
+          50.9721669,
+          6.94626
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.94626,
+            50.9721669
+          ],
+          [
+            6.9461772,
+            50.9720002
+          ],
+          [
+            6.9460779,
+            50.9717671
+          ],
+          [
+            6.9460359,
+            50.9717073
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 753782330,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Nibelungenstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9758949,
+          6.9454875,
+          50.9759063,
+          6.9457207
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9457207,
+            50.9759063
+          ],
+          [
+            6.9454875,
+            50.9758949
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 753782331,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Nibelungenstraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9759063,
+          6.9457207,
+          50.9759125,
+          6.9461742
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9461742,
+            50.9759125
+          ],
+          [
+            6.9457898,
+            50.9759097
+          ],
+          [
+            6.9457207,
+            50.9759063
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 753782332,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9759063,
+          6.9457207,
+          50.97598,
+          6.9461742
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9461742,
+            50.9759125
+          ],
+          [
+            6.9461379,
+            50.9759586
+          ],
+          [
+            6.9460856,
+            50.97598
+          ],
+          [
+            6.9458622,
+            50.9759791
+          ],
+          [
+            6.9457925,
+            50.9759762
+          ],
+          [
+            6.9457403,
+            50.9759605
+          ],
+          [
+            6.9457213,
+            50.9759366
+          ],
+          [
+            6.9457207,
+            50.9759063
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 760451497,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9722383,
+          6.9431618,
+          50.9725047,
+          6.9439027
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9432059,
+            50.9722383
+          ],
+          [
+            6.9431618,
+            50.9724021
+          ],
+          [
+            6.9432455,
+            50.9724491
+          ],
+          [
+            6.9439027,
+            50.9725047
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 809946566,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9728024,
+          6.9460633,
+          50.9728056,
+          6.9461885
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9460633,
+            50.9728056
+          ],
+          [
+            6.9461885,
+            50.9728024
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 809946567,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9728056,
+          6.9458969,
+          50.9728098,
+          6.9460633
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9458969,
+            50.9728098
+          ],
+          [
+            6.9460633,
+            50.9728056
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 809946568,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.972832,
+          6.9460652,
+          50.972836,
+          6.9461899
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9460652,
+            50.972836
+          ],
+          [
+            6.9461899,
+            50.972832
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 809946569,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.972836,
+          6.9458823,
+          50.972842,
+          6.9460652
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9458823,
+            50.972842
+          ],
+          [
+            6.9460652,
+            50.972836
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 809946570,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9727291,
+          6.9457629,
+          50.9728131,
+          6.9458969
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9457629,
+            50.9727291
+          ],
+          [
+            6.9457669,
+            50.9728131
+          ],
+          [
+            6.9458969,
+            50.9728098
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 809946571,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.972842,
+          6.9455571,
+          50.9728525,
+          6.9458823
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9455571,
+            50.9728525
+          ],
+          [
+            6.9458823,
+            50.972842
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 824559046,
+        "osm_type": "way",
+        "type": "service",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.974821,
+          6.946539,
+          50.9750903,
+          6.9470588
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.946539,
+            50.975088
+          ],
+          [
+            6.9466564,
+            50.9750903
+          ],
+          [
+            6.9468712,
+            50.97509
+          ],
+          [
+            6.9469888,
+            50.9750877
+          ],
+          [
+            6.9470106,
+            50.9750852
+          ],
+          [
+            6.9470285,
+            50.9750789
+          ],
+          [
+            6.9470425,
+            50.9750704
+          ],
+          [
+            6.947051,
+            50.9750554
+          ],
+          [
+            6.9470588,
+            50.9750351
+          ],
+          [
+            6.9470584,
+            50.9749888
+          ],
+          [
+            6.9470508,
+            50.974821
+          ]
+        ]
+      }
+    }
+  ]
+}
