@@ -228,6 +228,12 @@ The geolocation of each tree is matched with OpenStreetMap (OSM) data of 3 broad
 - **green_spaces_agriculture:** green spaces occuring in mostly rural areas
 
 
+These categories are reflecting the most likely stress level of a tree environment:
+- streets et.al.: high
+- parks et.al.: medium
+- forests et.al: low 
+
+
 Following values are requested for each respective category:
 - highway
     - all
