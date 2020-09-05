@@ -201,6 +201,56 @@ Although this method (which is basiccally "birds of a feather flock together") h
 (Hence the additional probability which is the percentage of the "winning" cluster trees in regard of the overall trees within the examined radius.)
 
 
+### tree_location_type
+Example:
+```
+"tree_location_type": {
+    "green_spaces_agriculture": {
+      "category": "green_spaces_agriculture",
+      "type": "farmland",
+      "name": null,
+      "osm_id": 38325295,
+      "wikidata_id": null
+  },
+  "highway": {
+      "category": "highway",
+      "type": "service",
+      "name": null,
+      "osm_id": 27090973,
+      "wikidata_id": null
+  }
+}
+```
+
+The geolocation of each tree is matched with OpenStreetMap (OSM) data of 3 broad categories:
+- **highway:** following the OSM naming convention, using **all** types of mapped ways incl. sidewalks
+- **green_spaces_leisure:** green spaces occuring in mostly urban areas
+- **green_spaces_agriculture:** green spaces occuring mostly in rural areas
+
+
+Following values are requested for each respective category:
+- highway
+    - * (all)
+- green_spaces_leisure
+    - park
+    - playground
+    - grass
+    - recreation_ground
+    - cemetery
+- green_spaces_agriculture
+    - allotments
+    - farmland
+    - forest
+    - meadow
+    - orchard
+
+
+For detailed information about the requested OSM values, please refer to 
+- https://wiki.openstreetmap.org/wiki/Key:highway
+- https://wiki.openstreetmap.org/wiki/Landuse
+- https://wiki.openstreetmap.org/wiki/Key:leisure
+
+
 ## Example 1
 ```
 {
