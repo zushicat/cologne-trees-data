@@ -72,8 +72,6 @@ def request_osm_urban_green_spaces(min_lng: float, min_lat: float, max_lng: floa
   	        relation["landuse"="recreation_ground"]({min_lat},{ min_lng}, {max_lat}, {max_lng});
             way["landuse"="cemetery"]({min_lat},{ min_lng}, {max_lat}, {max_lng});
   	        relation["landuse"="cemetery"]({min_lat},{ min_lng}, {max_lat}, {max_lng});
-            way["landuse"="recreation_ground"]({min_lat},{ min_lng}, {max_lat}, {max_lng});
-  	        relation["landuse"="recreation_ground"]({min_lat},{ min_lng}, {max_lat}, {max_lng});
         );
         out geom;"""
 
