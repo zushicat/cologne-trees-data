@@ -237,7 +237,7 @@ These categories are reflecting the most likely stress level of a tree environme
 
 **Please note**
 tree_location_type allows multiple categories, because all highway (line) elements have a surrounding default buffer of approx. 5 meter, whereas the green spaces are usually defined as polygon areas.    
-In case that both green space and higway attributes occure, this indicates that a tree is at least near a highway although it intersects with a defined green space polygon.    
+In case that both green space and highway attributes occure, this indicates that a tree is at least near a highway although it intersects with a defined green space polygon.    
 (If in doubt, you then may prefer the green space attribute, although there's certainly room for interpretation.)
 
 
