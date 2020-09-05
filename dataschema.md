@@ -225,7 +225,7 @@ Example:
 The geolocation of each tree is matched with OpenStreetMap (OSM) data of 3 broad categories:
 - **highway:** following the OSM naming convention, using **all** types of mapped ways incl. sidewalks
 - **green_spaces_leisure:** green spaces occuring in mostly urban areas
-- **green_spaces_agriculture:** green spaces occuring mostly in rural areas
+- **green_spaces_agriculture:** green spaces occuring in mostly rural areas
 
 
 Following values are requested for each respective category:
