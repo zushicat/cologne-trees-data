@@ -226,12 +226,18 @@ The geolocation of each tree is matched with OpenStreetMap (OSM) data of 3 broad
 - **highway:** following the OSM naming convention, using **all** types of mapped ways incl. sidewalks
 - **green_spaces_leisure:** green spaces occuring in mostly urban areas
 - **green_spaces_agriculture:** green spaces occuring in mostly rural areas
+or null
 
 
 These categories are reflecting the most likely stress level of a tree environment:
 - streets et.al.: high
 - parks et.al.: medium
 - forests et.al: low 
+
+
+**Please note**
+This attribute allows multiple categories, because (out of technical reasons) all highway (line) elements have a surrounding default buffer of approx. 5 meter, whereas the green spaces are usually defined as polygon areas.    
+In case that both a green space and a higway attribute occure in the tree_location_type object, this indicates that a tree is at least near a highway although it intersects with a defined green space polygon. (If in doubt, you then may prefer the green space attribute.)
 
 
 Following values are requested for each respective category:
@@ -257,89 +263,104 @@ For detailed information about the requested OSM values, please refer to
 - https://wiki.openstreetmap.org/wiki/Key:leisure
 
 
+
 ## Example 1
 ```
 {
-  "tree_id": "aea89244-1dc9-435c-ad71-973739af2a0d",
-  "dataset_completeness": 1,
+  "tree_id": "703c3c28-0da6-4706-b0bf-f3d2e1b7a976",
+  "dataset_completeness": 0.95,
   "base_info_completeness": 1,
-  "tree_taxonomy_completeness": 1,
+  "tree_taxonomy_completeness": 0.8,
   "tree_measures_completeness": 1,
   "tree_age_completeness": 1,
   "base_info": {
-    "object_type": "street/court (plaza)",
-    "tree_nr": "P14",
-    "year_planting": 2002
+    "object_type": "building/school/dormitory (home) building",
+    "tree_nr": "10G",
+    "year_planting": 1993
   },
   "geo_info": {
-    "utm_x": 359965,
-    "utm_y": 5648769,
-    "lat": 50.973473811608784,
-    "lng": 7.005388858959242,
-    "suburb": "Mülheim",
-    "suburb_id": "901",
+    "utm_x": 358061,
+    "utm_y": 5651408,
+    "lat": 50.99672419050312,
+    "lng": 6.977256051311555,
+    "suburb": "Flittard",
+    "suburb_id": "909",
     "district": "Mülheim",
     "district_id": "9"
   },
   "tree_taxonomy": {
-    "genus": "Catalpa",
-    "genus_name_german": "Trompetenbäume",
-    "species": "bignonioides",
-    "type": "Nana",
+    "genus": "Fraxinus",
+    "genus_name_german": "Eschen",
+    "species": "excelsior",
+    "type": null,
     "name_german": [
-      "Kugel-Trompetenbaum"
+      "Gemeine Esche"
     ]
   },
   "tree_measures": {
-    "height": 4,
-    "treetop_radius": 6,
-    "bole_radius": 15
+    "height": 9,
+    "treetop_radius": 5,
+    "bole_radius": 25
   },
   "tree_age": {
-    "year_sprout": 1989,
-    "age_in_2020": 31,
+    "year_sprout": 1985,
+    "age_in_2020": 35,
     "age_group_2020": 1
   },
   "found_in_dataset": {
     "2017": true,
     "2020": true
   },
-  "predictions": null
+  "predictions": null,
+  "tree_location_type": {
+    "green_spaces_agriculture": {
+      "category": "green_spaces_agriculture",
+      "type": "farmland",
+      "name": null,
+      "osm_id": 38325295,
+      "wikidata_id": null
+    },
+    "highway": {
+      "category": "highway",
+      "type": "service",
+      "name": null,
+      "osm_id": 27090973,
+      "wikidata_id": null
+    }
+  }
 }
 ```
 
 ## Example 2: tree with sparse information and predictions
 ```
 {
-  "tree_id": "1204082d-767b-4442-a2f5-2a35c8455609",
-  "dataset_completeness": 0.4,
-  "base_info_completeness": 1,
-  "tree_taxonomy_completeness": 0.6,
+  "tree_id": "20e75116-e3b9-4123-88d2-018aef87f867",
+  "dataset_completeness": 0.17,
+  "base_info_completeness": 0.67,
+  "tree_taxonomy_completeness": 0,
   "tree_measures_completeness": 0,
   "tree_age_completeness": 0,
   "base_info": {
-    "object_type": "street/court (plaza)",
-    "tree_nr": "52G",
-    "year_planting": 1992
+    "object_type": "building/school/dormitory (home) building",
+    "tree_nr": "34U",
+    "year_planting": null
   },
   "geo_info": {
-    "utm_x": 362702,
-    "utm_y": 5652041,
-    "lat": 51.00353916397048,
-    "lng": 7.043112678206608,
-    "suburb": "Dünnwald",
-    "suburb_id": "907",
+    "utm_x": 362364,
+    "utm_y": 5647581,
+    "lat": 50.963375244848244,
+    "lng": 7.039987391288516,
+    "suburb": "Holweide",
+    "suburb_id": "904",
     "district": "Mülheim",
     "district_id": "9"
   },
   "tree_taxonomy": {
-    "genus": "Acer",
-    "genus_name_german": "Ahorne",
+    "genus": null,
+    "genus_name_german": null,
     "species": null,
     "type": null,
-    "name_german": [
-      "Ahorn"
-    ]
+    "name_german": null
   },
   "tree_measures": {
     "height": null,
@@ -358,17 +379,26 @@ For detailed information about the requested OSM values, please refer to
   "predictions": {
     "by_radius_prediction": {
       "genus": {
-        "prediction": "Acer",
-        "probability": 0.35
+        "prediction": "Quercus",
+        "probability": 0.53
       },
       "age_group": {
         "prediction": 2,
-        "probability": 0.5
+        "probability": 0.61
       },
       "year_sprout": {
-        "prediction": 1949,
-        "probability": 0.27
+        "prediction": 1980,
+        "probability": 0.31
       }
+    }
+  },
+  "tree_location_type": {
+    "highway": {
+      "category": "highway",
+      "type": "residential",
+      "name": "Burgwiesenstraße",
+      "osm_id": 25496381,
+      "wikidata_id": null
     }
   }
 }
@@ -377,13 +407,16 @@ For detailed information about the requested OSM values, please refer to
 ## Example 3: reduced tree data (from trees_cologne_reduced.json.tar.gz)
 ```
 {
-  "tree_id": "106f2fe2-19b9-4d1a-a156-937c7c278657",
+  "tree_id": "1537ebd5-75fb-4bd9-9c20-898f99c6d30a",
   "district_number": "9",
-  "lat": 50.997211209450896,
-  "lng": 6.977334634247912,
-  "genus": "Fraxinus",
+  "lat": 50.961181877547325,
+  "lng": 7.005003979097982,
   "in_dataset_2020": true,
-  "age_group": 2
+  "genus": "Platanus",
+  "age_group": 1,
+  "location_type": [
+    "highway"
+  ]
 }
 ```
 
