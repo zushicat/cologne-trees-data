@@ -230,7 +230,7 @@ The geolocation of each tree is matched with OpenStreetMap (OSM) data of 3 broad
 
 Following values are requested for each respective category:
 - highway
-    - * (all)
+    - all
 - green_spaces_leisure
     - park
     - playground
