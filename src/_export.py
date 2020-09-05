@@ -53,7 +53,6 @@ def create_reduced_data(tree_data_list: List[Dict[str, Any]]) -> List[Dict[str, 
             "in_dataset_2020": tree_data["found_in_dataset"]["2020"],
             "genus": None,
             "age_group": None,
-            "object_type": tree_data["base_info"]["object_type"],
             "location_type": None if tree_data["tree_location_type"] is None else list(tree_data["tree_location_type"].keys())
         }
 
