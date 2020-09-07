@@ -143,7 +143,7 @@ Example:
 **height/treetop_radius/bole_radius**    
 This data is taken from the datasets. Checks on samples showed that, given a tree occured in both datasets, the measures didn't change. Meaning: according to those samples, tree growth was not taken into any account in the original 2020 dataset. (You might want to keep that in mind.)    
 
-**Note**
+**Please note**    
 Regarding tree_measures.treetop_radius and tree_measures.bole_radius:
 In the heat of the moment I wrongly named the attributes for treetop and bole (trunk) values as radius when in fact
 - treetop_radius is the **diameter** of a treetop
