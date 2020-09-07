@@ -93,7 +93,7 @@ Example:
 ```
 
 **utm_x/utm_y**    
-Geoinfo taken from the datasets.    
+Geolocation taken from the datasets.    
 
 **lat/lng**    
 Latitude and longitude values, derived from utm x and y.    
