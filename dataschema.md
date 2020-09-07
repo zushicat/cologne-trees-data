@@ -31,9 +31,9 @@ The first value is directly taken from the tree inventory. After some exploratio
 
 Therefore, tree_location_type is introduced with an OpenStreetMap (OSM) data match of each tree (point) position regarding 3 broad environment categories.
 
-
-
-There are 8 main objects:
+    
+    
+**There are 8 main objects:**
 - base_info
 - geo_info
 - tree_taxonomy
