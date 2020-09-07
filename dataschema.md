@@ -140,7 +140,7 @@ Example:
 This data is taken from the datasets. Checks on samples showed that, given a tree occured in both datasets, the measures didn't change. Meaning: according to those samples, tree growth was not taken into any account in the original 2020 dataset. (You might want to keep that in mind.)    
 
 **Note**
-Regarding .tree_measures.treetop_radius and .tree_measures.bole_radius:
+Regarding tree_measures.treetop_radius and tree_measures.bole_radius:
 In the heat of the moment I wrongly named the attributes for treetop and bole (trunk) values as radius when in fact
 - treetop_radius is the **diameter** of a treetop
 - bole_radius is the **perimeter** of a trunk
@@ -159,7 +159,7 @@ Example:
 ```
 
 **year_sprout**    
-As mentioned before, the examination of age information from the original data revealed a very high variance which makes this data too unreliable for direct aquisition on individual tree. But taken as a whole (per genus), it proves sufficiant to train a regression model (X: genus, bole radius, y: year sprout) and predict the year a tree sprout when genus and bole radius are given.    
+As mentioned before, the examination of age information from the original data revealed a very high variance which makes this data too unreliable for direct aquisition on individual tree. But taken as a whole (per genus), it proves sufficiant to train a regression model (X: genus, bole radius, y: year sprout) and predict the tree age when genus and bole radius are given.    
 
 **age_in_2020**    
 Derived from year_sprout (valid for 2020)    
