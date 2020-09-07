@@ -26,7 +26,7 @@ In the heat of the moment I wrongly named the attributes for treetop and bole (t
 
 
 **Note**    
-There are 2 attributes regarding the tree envirnment: .base_info.object_type and tree_location_type.    
+There are 2 attributes regarding the tree envirnment: base_info.object_type and tree_location_type.    
 The first value is directly taken from the tree inventory. After some exploration, these values don't seem to reflect the real situation with a strong bias towards "building/school/dormitory (home) building". (This value almost appears to be some kind of default.)     
 
 Therefore, tree_location_type is introduced with an OpenStreetMap (OSM) data match of each tree (point) position regarding 3 broad environment categories.
