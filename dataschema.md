@@ -67,7 +67,7 @@ This is unmodified data from the tree inventories. (Exception: year_planting for
 
 
 **object_type**    
-There are different situations defined by the responsible authority which can be found here:    
+There are different environments defined by the responsible authority which can be found here:    
 [object_types.json](https://github.com/zushicat/cologne-trees-data/blob/master/data/meta/object_types.json)    
 Here, the english (translated) version is being used.
 
