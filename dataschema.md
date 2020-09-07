@@ -3,7 +3,9 @@ Information about how the data is processed and stored.
 
 The resulting data is based on 2 official "Baumkataster" tree inventory datasets published by the City of Cologne, Germany, but is heavily modified and enriched.    
  
-This is due to incomplete and/or unreliable (resp. implausible) data in the original datasets. Also, both datasets had to be merged (with a record of the occurrence in respective dataset) to determine tree existence in the past and the present (meaning: is a tree cut down between 2017 and 2020 or is it still existing).    
+This is due to incomplete and/or unreliable (resp. implausible) data in the original datasets. Also, both datasets had to be merged (with a record of the occurrence in respective dataset) to determine tree existence in the past and the present (meaning: is a tree cut down between 2017 and 2020 or is it still existing).     
+
+**Please keep in mind that this data reflects what is measured, not necessarily what is real.**    
 
 **Note**    
 The record entries in both datasets have no unique id per tree and a certain tolerance regarding the physical measurement of the geographical tree location must be assumed. Therefore it should not be assumed that each entry really represents an unique tree.     
