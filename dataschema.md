@@ -73,7 +73,7 @@ Please refer to https://offenedaten-koeln.de/dataset/baumkataster-koeln
 
 **year_planting**    
 The "Baumkataster" tree inventory datasets have different definitions regarding age information of a tree. The 2017 dataset uses estimated age whereas the 2020 dataset provides the estimated year the tree was planted.    
-Therefore, given a mean age of 10 years when a city tree is planted, the 2017 age estimation is recalculated to the year of planting.    
+Therefore, given a mean age of 10 years when a city tree is planted, the 2017 age estimation is recalculated accordingly to the year of planting.    
 **But** the age information in regards of individual trees is quite unreliable (see below: tree_age).
 
 
