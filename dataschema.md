@@ -99,7 +99,7 @@ Geoinfo taken from the datasets.
 Latitude and longitude values, derived from utm x and y.    
 
 **suburb/district**    
-Derived from a polygon match of Cologne suburbs and the geoinfo.    
+Derived from a polygon match of Cologne suburbs and the respective geo information properties.    
 See geojson file [cologne_districts_polygons.geojson](https://github.com/zushicat/cologne-trees-data/blob/master/data/geo_data/cologne_districts_polygons.geojson)
 
 
