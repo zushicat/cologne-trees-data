@@ -21,7 +21,7 @@ The file [trees_cologne_reduced.json.tar.gz](https://github.com/zushicat/cologne
 
 
 **Note**    
-Regarding .tree_measures.treetop_radius and .tree_measures.bole_radius:
+Regarding tree_measures.treetop_radius and tree_measures.bole_radius:    
 In the heat of the moment I wrongly named the attributes for treetop and bole (trunk) values as radius when in fact
 - treetop_radius is the **diameter** of a treetop
 - bole_radius is the **perimeter** of a trunk
