@@ -59,6 +59,8 @@ Example:
     "year_planting": 1991
 }
 ```
+This is unmodified data from the tree inventories. (Exception: year_planting for data from the 2017 dataset.)     
+
 
 **object_type**    
 There are different situations defined by the responsible authority which can be found here:    
