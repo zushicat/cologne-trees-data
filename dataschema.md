@@ -212,8 +212,7 @@ Example:
 **by_radius_prediction**    
 There are trees without information about genus and measures to estimate the age by regression. Therefore, trees in a 50 meter radius around a respective tree are clustered (seperately for each prediction) and the most dominant cluster label is assigned.      
 
-Although this method (which is basically "birds of a feather flock together") has its obvious and inherant limitations it's still way better than no data at all.    
-(Hence the additional probability which is the percentage of the "winning" cluster trees in regard of the overall trees within the examined radius.)
+Although this method (which is basically "birds of a feather flock together") has its obvious and inherant limitations it's still way better than no data at all. (Hence the additional probability attribute which is the percentage of the "winning" cluster trees in regard of the overall number of trees within the examined radius.)
 
 
 ## tree_location_type
