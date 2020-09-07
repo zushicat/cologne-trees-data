@@ -7,6 +7,8 @@ This is due to incomplete and/or unreliable (resp. implausible) data in the orig
 
 **Please keep in mind that this data reflects what is measured, not necessarily what is real.**    
 
+---
+
 **Note**    
 The record entries in both datasets have no unique id per tree and a certain tolerance regarding the physical measurement of the geographical tree location must be assumed. Therefore it should not be assumed that each entry really represents an unique tree.     
 Hence, there is a process implemented where trees are merged if their distance is < 3 meter:
