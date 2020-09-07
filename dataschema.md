@@ -206,7 +206,7 @@ Example:
 **by_radius_prediction**    
 There are trees without information about genus and measures to estimate the age by regression. Therefore, trees in a 50 meter radius around a respective tree are clustered (seperately for each prediction) and the most dominant cluster label is assigned.      
 
-Although this method (which is basiccally "birds of a feather flock together") has its obvious and inherant limitations it's still way better than no data at all.    
+Although this method (which is basically "birds of a feather flock together") has its obvious and inherant limitations it's still way better than no data at all.    
 (Hence the additional probability which is the percentage of the "winning" cluster trees in regard of the overall trees within the examined radius.)
 
 
@@ -235,6 +235,7 @@ The geolocation of each tree is matched with OpenStreetMap (OSM) data of 3 broad
 - **highway:** following the OSM naming convention, using **all** types of mapped ways incl. sidewalks
 - **green_spaces_leisure:** green spaces occuring in mostly urban areas
 - **green_spaces_agriculture:** green spaces occuring in mostly rural areas
+
 or null
 
 
