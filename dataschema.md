@@ -54,7 +54,7 @@ Additionally the data completeness is noted:
 - tree_measures_completeness
 - tree_age_completeness
 
-### base_info
+## base_info
 Example:
 ```
 "base_info": {
@@ -81,7 +81,7 @@ Therefore, given a mean age of 10 years when a city tree is planted, the 2017 ag
 **But** the age information in regards of individual trees is quite unreliable (see below: tree_age).
 
 
-### geo_info
+## geo_info
 Example:
 ```
 "geo_info": {
@@ -107,7 +107,7 @@ Derived from a polygon match of Cologne suburbs and the respective geo informati
 See geojson file [cologne_districts_polygons.geojson](https://github.com/zushicat/cologne-trees-data/blob/master/data/geo_data/cologne_districts_polygons.geojson)
 
 
-### tree_taxonomy
+## tree_taxonomy
 Example:
 ```
 "tree_taxonomy": {
@@ -130,7 +130,7 @@ Derived german name of genus (as defined in wikidata.org)
 See: [genus_name_german.json](https://github.com/zushicat/cologne-trees-data/blob/master/data/meta/genus_name_german.json)
 
 
-### tree_measures
+## tree_measures
 Example:
 ```
 "tree_measures": {
@@ -152,7 +152,7 @@ In the heat of the moment I wrongly named the attributes for treetop and bole (t
 **I will correct the naming of both attributes in the near future. Until then, please keep that in mind.**
 
 
-### tree_age    
+## tree_age    
 Example:    
 ```
 "tree_age": {
@@ -175,7 +175,7 @@ There are 3 age groups (valid for 2020)
 - 2: \> 40
 
 
-### found_in_dataset    
+## found_in_dataset    
 Example:    
 ```
 "found_in_dataset": {
@@ -188,7 +188,7 @@ Example:
 Bool record if a tree occured in respective dataset. (If 2020 is false, this might be an indicator that this tree is cut down.)    
 
 
-### predictions
+## predictions
 Example:
 ```
 "predictions": {
@@ -216,7 +216,7 @@ Although this method (which is basically "birds of a feather flock together") ha
 (Hence the additional probability which is the percentage of the "winning" cluster trees in regard of the overall trees within the examined radius.)
 
 
-### tree_location_type
+## tree_location_type
 Example:
 ```
 "tree_location_type": {
