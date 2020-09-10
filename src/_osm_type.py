@@ -63,7 +63,7 @@ def get_tree_location_types(tree_data_list: List[Dict[str, Any]]) ->  List[Dict[
                 tree_data["tree_location_type"][location_category] = area_intersection
             
         new_tree_data_list.append(tree_data)
-    
+
     return new_tree_data_list
 
 
@@ -84,7 +84,7 @@ def _get_area_bounding_box(area_bbox_points: List[float]) -> Polygon:
 
 def _get_polygon_from_line(area_geometry: List[List[float]]) -> List[List[float]]:
     line_string_area = LineString(area_geometry)
-    polygon_area = Polygon(line_string_area.buffer(0.00005, cap_style=2, join_style=2))
+    polygon_area = Polygon(line_string_area.buffer(0.0001, cap_style=2, join_style=2))  # 0.00005
 
     return polygon_area
 
@@ -103,7 +103,7 @@ def _check_suburb_polygons(suburb_data: Dict[str, Any], tree_point: Point, locat
         if area_geometry_type == "LineString":
             area_geometry = _get_polygon_from_line(area_geometry)  # create with buffer: 5 meter
         else:
-            area_geometry = Polygon(area_geometry[0])
+            area_geometry = Polygon(area_geometry[0]).buffer(0.00005)
 
         if tree_point.within(area_geometry) is True:  # stop at first fiunding
             return {
@@ -142,4 +142,7 @@ if __name__ == "__main__":
     ]
 
     new_tree_data_list = get_tree_location_types(tree_data_list)
-    print(new_tree_data_list[4])
+    for t in new_tree_data_list:
+        print(t["tree_location_type"])
+        # if t["tree_location_type"] is None:
+        #     print("   ", t["geo_info"]["lat"], t["geo_info"]["lng"])
