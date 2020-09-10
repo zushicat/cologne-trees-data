@@ -103,9 +103,9 @@ def _check_suburb_polygons(suburb_data: Dict[str, Any], tree_point: Point, locat
         if area_geometry_type == "LineString":
             area_geometry = _get_polygon_from_line(area_geometry)  # create with buffer: 5 meter
         else:
-            area_geometry = area_geometry[0]
+            area_geometry = Polygon(area_geometry[0])
 
-        if tree_point.within(area_bbox_polygon) is True:  # stop at first fiunding
+        if tree_point.within(area_geometry) is True:  # stop at first fiunding
             return {
                 "category": location_category,
                 "type": area_properties["type"],
