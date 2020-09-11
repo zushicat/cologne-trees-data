@@ -30,23 +30,31 @@ def process_features(osm_features: List[Dict[str, Any]]) -> List[Dict[str, Any]]
                 polygon = Polygon(osm_geometry["coordinates"][0]).buffer(0.00002)  # a litte buffer: approx. 1m each side
             else:
                 continue
+
+            # bounding box of new polygon (following former lat, lng converntion)
+            bbox = list(polygon.bounds)
+            osm_feature["properties"]["bounding_box"] = [
+                bbox[1], bbox[0], bbox[3], bbox[2]
+            ]
+
             osm_geometry["coordinates"] = [[list(pair) for pair in list(polygon.exterior.coords)]]
 
             buffer_feature.append(osm_feature)
         except Exception as e:
-            print(e)
+            print(e)  # debug
             continue  # rarely happens (i.e. 1x in neustadt sued suburb) -> ignore
-    
+
     return buffer_feature
 
 
 if __name__ == "__main__":
     for dir_name in ["green_spaces_agriculture", "green_spaces_leisure", "highway"]:
-        # if dir_name != "highway":
+        # if dir_name != "highway":  # debug
         #     continue
+
         file_names = os.listdir(f"{OSM_DATA_DIR_IN}/{dir_name}")
         for file_name in file_names:
-            # if file_name != "innenstadt_neustadtsud.json":
+            # if file_name != "innenstadt_neustadtsud.json":  # debug
             #     continue
 
             try:
