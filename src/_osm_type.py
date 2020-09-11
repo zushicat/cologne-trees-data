@@ -7,7 +7,7 @@ from shapely.geometry import LineString, Point, Polygon
 from slugify import slugify
 
 
-OSM_DATA_DIR = "../data/geo_data/osm"
+OSM_DATA_DIR = "../data/geo_data/osm_buffer"
 SUBURBS_GEOJSON: Dict[str, Any] = {}
 
 
@@ -82,28 +82,16 @@ def _get_area_bounding_box(area_bbox_points: List[float]) -> Polygon:
     return Polygon(area_bbox_polygon)
 
 
-def _get_polygon_from_line(area_geometry: List[List[float]]) -> List[List[float]]:
-    line_string_area = LineString(area_geometry)
-    polygon_area = Polygon(line_string_area.buffer(0.0001, cap_style=2, join_style=2))  # 0.00005
-
-    return polygon_area
-
-
 def _check_suburb_polygons(suburb_data: Dict[str, Any], tree_point: Point, location_category: str) -> Optional[Dict[str, Any]]:
     for osm_element in suburb_data["features"]:
         area_bbox_polygon = _get_area_bounding_box(osm_element["properties"]["bounding_box"])
         area_geometry_type = osm_element["geometry"]["type"]
-        area_geometry = osm_element["geometry"]["coordinates"]
+        area_geometry = Polygon(osm_element["geometry"]["coordinates"][0])
         area_properties = osm_element["properties"]
 
         # skip if not in broad bounding box of feature
         if tree_point.within(area_bbox_polygon) is False:
             continue
-
-        if area_geometry_type == "LineString":
-            area_geometry = _get_polygon_from_line(area_geometry)  # create with buffer: 5 meter
-        else:
-            area_geometry = Polygon(area_geometry[0]).buffer(0.00005)
 
         if tree_point.within(area_geometry) is True:  # stop at first fiunding
             return {
