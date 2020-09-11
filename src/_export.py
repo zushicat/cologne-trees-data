@@ -7,6 +7,22 @@ import os
 DATA_PATH = "../data/exports"
 
 
+def _get_unique_location_type(location_type_data: Dict[str, Any]) -> str:
+    if location_type_data is None:
+        return "unknown"
+
+    location_types = list(location_type_data.keys())
+    
+    if len(location_types) == 1: 
+        return location_types[0]
+
+    if len(location_types) > 1:
+        if "green_spaces_leisure" in location_types:
+            return "green_spaces_leisure"
+        else:
+            return "green_spaces_agriculture"
+
+
 def _get_reduced_tree_data(tree_data: Dict[str, Any]) -> Dict[str, Any]: # <-- check typing for .geojson datapoint return value
     new_tree_data: Dict[str, Optional[str, int, float]] = {
         "tree_id": tree_data["tree_id"],
@@ -53,7 +69,7 @@ def create_reduced_data(tree_data_list: List[Dict[str, Any]]) -> List[Dict[str, 
             "in_dataset_2020": tree_data["found_in_dataset"]["2020"],
             "genus": None,
             "age_group": None,
-            "location_type": None if tree_data["tree_location_type"] is None else list(tree_data["tree_location_type"].keys())
+            "location_type": _get_unique_location_type(tree_data["tree_location_type"])
         }
 
         if tree_data["tree_age"]["age_group_2020"] is not None:
