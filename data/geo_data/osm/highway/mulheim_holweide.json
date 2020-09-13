@@ -10496,35 +10496,6 @@
     {
       "type": "Feature",
       "properties": {
-        "osm_id": 27281787,
-        "osm_type": "way",
-        "type": "track",
-        "name": null,
-        "wikidata_id": null,
-        "bounding_box": [
-          50.9600004,
-          7.0357191,
-          50.9600798,
-          7.0367684
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0357191,
-            50.9600004
-          ],
-          [
-            7.0367684,
-            50.9600798
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "osm_id": 27282005,
         "osm_type": "way",
         "type": "service",
@@ -40341,8 +40312,8 @@
         "name": null,
         "wikidata_id": null,
         "bounding_box": [
-          50.9600798,
-          7.0367684,
+          50.9600004,
+          7.0357191,
           50.9625926,
           7.0442671
         ]
@@ -40350,6 +40321,10 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            7.0357191,
+            50.9600004
+          ],
           [
             7.0367684,
             50.9600798

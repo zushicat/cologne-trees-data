@@ -236,7 +236,32 @@ def create_geojson_polygon(elements: Dict[str, Any], current_city_area_polygon: 
         # **
         # TODO How to handle?
         if osm_type == "relation":
-            continue
+            for member in element["members"]:
+                osm_type = member["type"]
+                if osm_type == "way":
+                    if member["role"] != "outer":
+                        continue
+
+                    member["tags"] = element["tags"]
+                    member["bounds"] = element["bounds"]
+                    member["id"] = member["ref"]
+                    
+                    tmp_properties, tmp_geometry = get_current_feature(member)
+
+                    intersects_area = False
+                    if tmp_geometry["type"] == "LineString":
+                        intersects_area = get_line_poly_intersection(tmp_geometry["coordinates"], current_city_area_polygon)
+                    else:
+                        perc_intersection = get_precentage_poly_intersection(tmp_geometry["coordinates"][0], current_city_area_polygon)
+                        if perc_intersection > 0.05:
+                            intersects_area = True
+                        
+                    if intersects_area is True:
+                        current_geojson["features"].append({
+                            "type": "Feature",
+                            "properties": tmp_properties,
+                            "geometry": tmp_geometry
+                        })
 
     return current_geojson
 

@@ -46600,6 +46600,35 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 845454299,
+        "osm_type": "way",
+        "type": "path",
+        "name": null,
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9474444,
+          6.8597003,
+          50.9479006,
+          6.8598026
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.8597003,
+            50.9479006
+          ],
+          [
+            6.8598026,
+            50.9474444
+          ]
+        ]
+      }
     }
   ]
 }

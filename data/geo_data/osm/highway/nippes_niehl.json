@@ -16008,6 +16008,47 @@
     {
       "type": "Feature",
       "properties": {
+        "osm_id": 49008960,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Barbarastraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9694489,
+          6.9702873,
+          50.9763027,
+          6.9743299
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9743299,
+            50.9694489
+          ],
+          [
+            6.9743271,
+            50.9696197
+          ],
+          [
+            6.9743242,
+            50.9697968
+          ],
+          [
+            6.9702873,
+            50.9763027
+          ],
+          [
+            6.9730487,
+            50.9703165
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "osm_id": 49055223,
         "osm_type": "way",
         "type": "service",
@@ -17384,8 +17425,8 @@
         "wikidata_id": null,
         "bounding_box": [
           50.9743033,
-          6.968247,
-          50.9748011,
+          6.9682686,
+          50.9747293,
           6.9682855
         ]
       },
@@ -17397,8 +17438,8 @@
             50.9743033
           ],
           [
-            6.968247,
-            50.9748011
+            6.9682686,
+            50.9747293
           ]
         ]
       }
@@ -18565,22 +18606,22 @@
       "properties": {
         "osm_id": 52518726,
         "osm_type": "way",
-        "type": "residential",
+        "type": "living_street",
         "name": "Philipp-Zorn-Straße",
         "wikidata_id": null,
         "bounding_box": [
-          50.9748011,
+          50.9747293,
           6.9680148,
           50.9764383,
-          6.968247
+          6.9682686
         ]
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            6.968247,
-            50.9748011
+            6.9682686,
+            50.9747293
           ],
           [
             6.9682124,
@@ -19109,6 +19150,35 @@
           [
             6.9286359,
             51.0088257
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 59181485,
+        "osm_type": "way",
+        "type": "residential",
+        "name": "Barbarastraße",
+        "wikidata_id": null,
+        "bounding_box": [
+          50.9697934,
+          6.9702873,
+          50.9763027,
+          6.9720446
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9702873,
+            50.9763027
+          ],
+          [
+            6.9720446,
+            50.9697934
           ]
         ]
       }
